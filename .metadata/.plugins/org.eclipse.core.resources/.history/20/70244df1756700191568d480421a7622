@@ -1,0 +1,12 @@
+import java.util.Date;
+
+public class dataDemo {
+	
+	public static void main(String v[])
+	{
+		Date d=new Date();
+		
+		System.out.println(d.getDate());
+	}
+
+}

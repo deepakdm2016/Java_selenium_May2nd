@@ -1,0 +1,10 @@
+package multithreading;
+
+public class threadDemoInterface {
+	
+	public static void main(String v[])
+	{
+		
+	}
+
+}

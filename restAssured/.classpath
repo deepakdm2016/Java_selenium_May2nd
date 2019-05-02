@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/scala-support-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/spring-mock-mvc-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/spring-web-test-client-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/xml-path-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/rest-assured-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/json-path-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/json-schema-validator-3.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

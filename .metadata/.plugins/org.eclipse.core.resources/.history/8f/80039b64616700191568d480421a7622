@@ -1,0 +1,5 @@
+package Shape_demo;
+
+public interface shape {
+
+}

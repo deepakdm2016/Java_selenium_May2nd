@@ -1,0 +1,29 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import net.sourceforge.htmlunit.corejs.javascript.Script;
+
+public class handleFrames {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.google.com/recaptcha/api2/demo");
+		
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		
+		
+		String script="return document.getElementsById(\"input1\").value;";
+		String text=(String) js.executeScript(script);
+		System.out.println(text);
+		
+	}
+
+}

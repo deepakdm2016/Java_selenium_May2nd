@@ -1,0 +1,15 @@
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class handlehttps {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		DesiredCapabilities cap=DesiredCapabilities.chrome();
+		cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+		cap.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
+
+	}
+
+}

@@ -1,0 +1,63 @@
+
+public class anagram {
+	
+	public static void main(String v[])
+	{
+		String a="Listen";
+		String b="istenl";
+		
+		a=a.toLowerCase();
+		b=b.toLowerCase();
+	
+			char ac[]=a.toCharArray();
+			char bc[]=b.toCharArray();
+			
+			if(ac.length != bc.length)
+			{
+				System.out.println("It is not a Anagram");
+			}
+			else
+			{
+				for(int i=0;i<ac.length;i++)
+				{
+					for(int j=i+1;j<ac.length;j++)
+					{
+						if (ac[i]>ac[j])
+						{
+							char temp=ac[i];
+							ac[j]=ac[i];
+							ac[i]=temp;
+						}
+					}
+				}	
+					
+					for(int i=0;i<bc.length;i++)
+					{
+						for(int j=i+1;j<bc.length;j++)
+						{
+							if (bc[i]>bc[j])
+							{
+								char temp=bc[i];
+								bc[j]=ac[i];
+								bc[i]=temp;
+							}
+						}
+					}
+					
+					a=new String(ac);
+					b=new String(bc);
+					
+					if(a.equals(b))
+					{
+						System.out.println(a+" "+b+ "It is a anagram");
+					}
+					else
+						System.out.println(a+" "+b+"It is not a anagram");
+
+				}
+				
+				
+			}
+	}
+
+

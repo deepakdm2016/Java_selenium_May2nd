@@ -1,0 +1,18 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class tcsmail {
+
+	public static void main(String v[])
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://myapp.tcs.com/vpn/index.html");
+		driver.findElement(By.id("//input[@id='Enter user name']")).sendKeys("389524");
+		driver.findElement(By.id("//input[@id='passwd']")).sendKeys("vinayaka@2019");
+		driver.findElement("//input[@id='Log_On']")).sendKeys("vinayaka@2019");
+		
+		
+	}
+}

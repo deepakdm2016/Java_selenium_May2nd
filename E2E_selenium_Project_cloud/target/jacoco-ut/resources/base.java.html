@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>base.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">E2EProject</a> &gt; <a href="index.source.html" class="el_package">resources</a> &gt; <span class="el_source">base.java</span></div><h1>base.java</h1><pre class="source lang-java linenums">package resources;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+<span class="fc" id="L17">public class base {</span>
+
+	public static WebDriver driver;
+	public Properties prop;
+public WebDriver initializeDriver() throws IOException
+{
+	
+<span class="fc" id="L24"> prop= new Properties();</span>
+<span class="fc" id="L25">FileInputStream fis=new FileInputStream(&quot;C:\\Users\\Deepak\\Selenium\\E2E_selenium_Project\\src\\main\\java\\resources\\data.properties&quot;);</span>
+
+<span class="fc" id="L27">prop.load(fis);</span>
+<span class="fc" id="L28">String browserName=prop.getProperty(&quot;browser&quot;);</span>
+<span class="fc" id="L29">System.out.println(browserName);</span>
+
+<span class="pc bpc" id="L31" title="1 of 2 branches missed.">if(browserName.equals(&quot;chrome&quot;))</span>
+{
+<span class="fc" id="L33">	System.setProperty(&quot;webdriver.chrome.driver&quot;, &quot;C:\\Users\\Deepak\\chromedriver.exe&quot;);</span>
+<span class="fc" id="L34">	driver= new ChromeDriver();</span>
+		//execute in chrome driver
+	
+}
+<span class="nc bnc" id="L38" title="All 2 branches missed.">else if (browserName.equals(&quot;firefox&quot;))</span>
+{
+<span class="nc" id="L40">	 driver= new FirefoxDriver();</span>
+	//firefox code
+}
+<span class="nc bnc" id="L43" title="All 2 branches missed.">else if (browserName.equals(&quot;IE&quot;))</span>
+{
+//	IE code
+}
+
+<span class="fc" id="L48">driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);</span>
+<span class="fc" id="L49">return driver;</span>
+
+
+}
+
+public void getScreenshot(String result) throws IOException
+{
+<span class="nc" id="L56">	File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);</span>
+<span class="nc" id="L57">	FileUtils.copyFile(src, new File(&quot;C://test//&quot;+result+&quot;screenshot.png&quot;));</span>
+	
+<span class="nc" id="L59">}</span>
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

@@ -1,0 +1,12 @@
+import java.util.Calendar;
+public class LeapYear {
+	
+	public static void main(String v[])
+	{
+		Calendar cal=Calendar.getInstance();
+		cal.set(Calendar.YEAR, 2000);
+		int maxDay=cal.getActualMaximum(Calendar.DAY_OF_YEAR);
+		System.out.println(maxDay);
+	}
+
+}

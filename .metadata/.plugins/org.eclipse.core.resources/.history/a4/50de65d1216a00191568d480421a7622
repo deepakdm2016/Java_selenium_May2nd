@@ -1,0 +1,32 @@
+package HospitalUtils;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class hospital {
+
+	Map<Date, patient> hospital=new HashMap<Date, patient>();
+	
+	
+	public addPatient(patient p)
+	{void 
+		hospital.put(new Date(), patient p)
+	}
+	
+	public void getStats()
+	{
+		Set s=hospital.entrySet();
+		Iterator it=s.iterator();
+		while(it.hasNext())
+		{
+			Map.Entry<Date, patient> list=(Map.Entry)it.next();
+			list.getKey();
+			list.getValue();
+		}
+		
+	}
+	
+}

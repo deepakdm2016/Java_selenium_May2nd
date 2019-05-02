@@ -1,0 +1,13 @@
+
+public class No_of_words_in_sentence {
+
+	public static void main(String v[])
+	{
+		String test="Hello God thanks for the rebirth and allowing me to work again";
+		
+		String b[]=test.split(" ");
+		for(int i=0;i<b.length;i++)
+			System.out.println(b[i]);
+		
+	}
+}

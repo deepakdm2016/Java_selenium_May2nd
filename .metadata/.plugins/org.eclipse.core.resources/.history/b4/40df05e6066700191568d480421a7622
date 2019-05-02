@@ -1,0 +1,15 @@
+package test_functionality;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import objectRepo.loginPage;
+
+public class test1 {
+	
+	System.setProperty("webdriver.chrom.driver", "C:\\Users\\Deepak\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	
+	loginPage a=new loginPage(driver);
+
+}

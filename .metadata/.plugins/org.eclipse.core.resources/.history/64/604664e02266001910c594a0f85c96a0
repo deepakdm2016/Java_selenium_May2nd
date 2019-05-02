@@ -1,0 +1,33 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class handleFrames {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.google.com/recaptcha/api2/demo");
+		
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript(arg0);
+		
+		WebElement element=(driver.findElement(By.xpath("//div[@class='recaptcha-checkbox-checkmark']")));
+		
+		driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@name='a-h5okvmpqrbcd']")));
+		Actions ac=new Actions(driver);
+		
+		ac.click(driver.findElement(By.xpath("//div[@class='recaptcha-checkbox-checkmark']"))).build().perform();
+		
+		driver.switchTo().defaultContent();
+
+		
+	}
+
+}

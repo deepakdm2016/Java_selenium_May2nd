@@ -1,0 +1,21 @@
+package objectRepo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class homePage {
+
+	
+	WebDriver driver;
+	
+	@FindBy
+	By news=By.xpath("//a[@href='https://www.rediff.com/news']");
+	
+	
+	public homePage(WebDriver driver)
+	{
+		this.driver=driver;
+		
+	}
+	
+}

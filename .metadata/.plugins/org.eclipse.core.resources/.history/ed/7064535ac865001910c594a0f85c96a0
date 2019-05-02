@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class remove_Duplicates {t
+	
+	public static void main(String v[])
+	{
+		int a[]={1,2,3,4,5,1,3};
+		
+		List<Integer> ab= new ArrayList<Integer>();
+		for(int i:a)
+		{
+			if(ab.contains(i))
+			{
+				continue;
+			}
+			
+		}
+	}
+
+}

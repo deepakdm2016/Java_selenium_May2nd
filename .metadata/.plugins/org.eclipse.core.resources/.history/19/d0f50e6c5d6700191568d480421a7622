@@ -1,0 +1,15 @@
+
+public class anagram {
+	
+	public static void main(String v[])
+	{
+		String a="listen";
+		String b="istenl";
+		
+		a=a.toLowerCase();
+		b=b.toLowerCase();
+	
+					}
+	}
+
+

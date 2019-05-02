@@ -1,0 +1,14 @@
+import java.util.Calendar;
+public class LeapYear {
+	
+	public static void main(String v[])
+	{
+		Calendar cal=new Calendar.Builder();
+	       Calendar cal = Calendar.getInstance(); //gets Calendar based on local timezone and locale
+
+
+	       Read more: http://www.java67.com/2012/12/how-to-check-leap-year-in-java-program.html#ixzz5lvr0CgDM
+		
+	}
+
+}

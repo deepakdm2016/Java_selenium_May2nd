@@ -1,0 +1,22 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class maxOccuranceCharString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a="Hello";
+
+		Map<String, Integer> b=new HashMap<String, Integer>();
+		
+		for(int i=0;i<a.length();i++)
+		{
+			if(!b.containsKey(a.charAt(i)))
+			{
+				b.put(a.substring(i, i+1), 1);
+			}
+		}
+	}
+
+}

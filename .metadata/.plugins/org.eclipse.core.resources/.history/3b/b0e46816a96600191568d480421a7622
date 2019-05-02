@@ -1,0 +1,30 @@
+package test;
+
+import java.util.Properties;
+
+import org.testng.annotations.*;
+
+public class basicClass1 {
+	
+
+	
+	@Parameters({"Deepak"})
+	@Test(groups={"regression", "smoke"}, timeOut=2)
+	public void method1(String url)
+	{
+		Properties prop=new Properties();
+
+		prop.load("C:\\Users\\Deepak\\Selenium\\testNGRevision\\src\\test.properties");
+
+		System.out.println("God is great Savior of families");
+		System.out.println(url);
+		System.out.println(prop.getProperty("Deepak"));
+	}
+	@Test(groups={"sanity"})
+	public void method2()
+	{
+		System.out.println("bc1- method 2- God is great Savior of families");
+	}
+
+
+}
