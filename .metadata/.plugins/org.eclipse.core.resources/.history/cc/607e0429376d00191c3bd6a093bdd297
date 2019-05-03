@@ -1,0 +1,8 @@
+Feature: login into application
+Scenario: positive test validating login
+
+Given: initialize webdriver with chrome
+And Navigate to "QAClickAcademy" site
+And Click on login link on home page to land on secure sign in page
+
+

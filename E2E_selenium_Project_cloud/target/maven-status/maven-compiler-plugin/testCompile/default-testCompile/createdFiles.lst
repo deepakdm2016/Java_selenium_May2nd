@@ -1,7 +1,7 @@
 CucumberOptions\TestRunner.class
-testSanity\listeners.class
 Academy\AppTest.class
-testSanity\HomePage.class
+testSanity\listenersTest.class
+testSanity\validateNavigationBarTest.class
+testSanity\HomePageTest.class
 stepDefination1\stepDefination.class
-testSanity\validateNavigationBar.class
-testSanity\validateTitle.class
+testSanity\validateTitleTest.class

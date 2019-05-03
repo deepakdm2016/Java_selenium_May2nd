@@ -1,0 +1,9 @@
+Feature: login into application
+
+Scenario: positive test validating login
+Given initialize webdriver with chrome
+And Navigate to "http://http://www.qaclickacademy.com/" site
+And Click on login link on home page to land on secure sign in page
+When user enters "test99@gmail.com" and "123456"
+Then verify that user is successfully logged in 
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (4)" project="E2EProject" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" incomplete="true">
+    <testsuite name="Feature: Login into Application" incomplete="true">
+      <testcase name="Scenario Outline: Positive test validating login" classname="Scenario Outline: Positive test validating login" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

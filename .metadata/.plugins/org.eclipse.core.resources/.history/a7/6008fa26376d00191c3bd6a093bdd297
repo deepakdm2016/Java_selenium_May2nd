@@ -1,0 +1,5 @@
+Feature: login into application
+Scenario: positive test validating login
+
+Given: initialize webdriver with chrome
+When: Navigate to "QAClickAcademy" site

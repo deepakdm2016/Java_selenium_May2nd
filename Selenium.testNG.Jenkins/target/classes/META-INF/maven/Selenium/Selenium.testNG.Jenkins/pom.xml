@@ -46,9 +46,9 @@
 			</build>
 
 		</profile>
-		
-		
-		
+
+
+
 		<profile>
 
 			<id>Smoke</id>
@@ -78,7 +78,7 @@
 			</build>
 
 		</profile>
-		
+
 	</profiles>
 
 
