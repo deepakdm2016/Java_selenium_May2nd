@@ -33,8 +33,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Deepak\Selenium\E2E_selenium_Project"/>
+			<item value="C:\Users\Deepak\E2EProject"/>
 			<item value="C:\Users\Deepak\E2EProjectCucumber"/>
+			<item value="C:\Users\Deepak\Selenium\E2E_selenium_Project"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -58,6 +59,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Deepak\Selenium\E2E_selenium_Project_cloud"/>
+			<item value="C:\Users\Deepak\Selenium"/>
 			<item value="C:\Users\Deepak\Selenium\Cucumber\src\cucumberTest.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -71,21 +74,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Cucumber_practice.practice"/>
-			<item value="Cucumber.Automation"/>
-			<item value="Selenium.Selenium.testNG.Jenkins"/>
+			<item value="DeepakAcademy.DeepakE2EProject"/>
 			<item value="Academy.Project"/>
 		</list>
 		<list key="groupId">
-			<item value="Cucumber_practice"/>
-			<item value="Cucumber"/>
-			<item value="Selenium"/>
+			<item value="DeepakAcademy"/>
 			<item value="Academy"/>
 		</list>
 		<list key="artifactId">
-			<item value="practice"/>
-			<item value="Automation"/>
-			<item value="Selenium.testNG.Jenkins"/>
+			<item value="DeepakE2EProject"/>
 			<item value="Project"/>
 		</list>
 		<list key="projectNameTemplate">

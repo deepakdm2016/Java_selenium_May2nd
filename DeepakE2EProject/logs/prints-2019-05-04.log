@@ -1,0 +1,8 @@
+16:49:39.275 [main] DEBUG resources.Base - url Launched
+16:49:39.280 [main] DEBUG resources.Base - clicking on login 
+16:49:45.554 [main] DEBUG resources.Base - Entering username and email
+16:51:58.604 [main] DEBUG resources.Base - Firefox Launched
+16:52:01.353 [main] DEBUG resources.Base - Validating if contact list is present or not
+16:52:05.286 [main] DEBUG resources.Base - Firefox Launched
+16:52:08.204 [main] DEBUG resources.Base - Validating if title is present or not
+16:52:08.817 [main] INFO  resources.Base - screenshot taken basePageNavigationscreenShot.png
