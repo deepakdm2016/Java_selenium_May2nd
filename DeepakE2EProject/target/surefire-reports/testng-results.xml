@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41397" started-at="2019-05-04T11:21:54Z" finished-at="2019-05-04T11:22:36Z">
+  <suite name="Suite" duration-ms="43494" started-at="2019-05-05T15:31:28Z" finished-at="2019-05-05T15:32:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7577" started-at="2019-05-04T11:21:54Z" finished-at="2019-05-04T11:22:02Z">
+    <test name="Test" duration-ms="7996" started-at="2019-05-05T15:31:28Z" finished-at="2019-05-05T15:31:36Z">
       <class name="DeepakAcademy.DeepakE2EProject.validateLandingPage">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPage@c33b74f]" name="basePageNavigation" duration-ms="6629" started-at="2019-05-04T16:51:54Z" finished-at="2019-05-04T16:52:01Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPage@c33b74f]" name="basePageNavigation" duration-ms="6832" started-at="2019-05-05T21:01:28Z" finished-at="2019-05-05T21:01:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPage@c33b74f]" name="tearDown" is-config="true" duration-ms="939" started-at="2019-05-04T16:52:01Z" finished-at="2019-05-04T16:52:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPage@c33b74f]" name="tearDown" is-config="true" duration-ms="1153" started-at="2019-05-05T21:01:34Z" finished-at="2019-05-05T21:01:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- DeepakAcademy.DeepakE2EProject.validateLandingPage -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="7519" started-at="2019-05-04T11:22:02Z" finished-at="2019-05-04T11:22:09Z">
+    <test name="Test1" duration-ms="6874" started-at="2019-05-05T15:31:36Z" finished-at="2019-05-05T15:31:43Z">
       <class name="DeepakAcademy.DeepakE2EProject.validateLandingPageTitle">
-        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPageTitle@384ad17b]" name="basePageNavigation" duration-ms="5842" started-at="2019-05-04T16:52:02Z" finished-at="2019-05-04T16:52:08Z">
+        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPageTitle@384ad17b]" name="basePageNavigation" duration-ms="5199" started-at="2019-05-05T21:01:36Z" finished-at="2019-05-05T21:01:41Z">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<......> but was:<...A...>]]>
@@ -63,15 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPageTitle@384ad17b]" name="tearDown" is-config="true" duration-ms="1126" started-at="2019-05-04T16:52:08Z" finished-at="2019-05-04T16:52:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DeepakAcademy.DeepakE2EProject.validateLandingPageTitle@384ad17b]" name="tearDown" is-config="true" duration-ms="1069" started-at="2019-05-05T21:01:41Z" finished-at="2019-05-05T21:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- DeepakAcademy.DeepakE2EProject.validateLandingPageTitle -->
     </test> <!-- Test1 -->
-    <test name="Test11" duration-ms="26251" started-at="2019-05-04T11:22:09Z" finished-at="2019-05-04T11:22:36Z">
+    <test name="Test11" duration-ms="28567" started-at="2019-05-05T15:31:43Z" finished-at="2019-05-05T15:32:11Z">
       <class name="DeepakAcademy.DeepakE2EProject.homePage">
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DeepakAcademy.DeepakE2EProject.homePage@6c80d78a]" name="basePageNavigation" duration-ms="13170" started-at="2019-05-04T16:52:09Z" data-provider="testData" finished-at="2019-05-04T16:52:23Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DeepakAcademy.DeepakE2EProject.homePage@6c80d78a]" name="basePageNavigation" duration-ms="14148" started-at="2019-05-05T21:01:43Z" data-provider="testData" finished-at="2019-05-05T21:01:57Z">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DeepakAcademy.DeepakE2EProject.homePage@6c80d78a]" name="basePageNavigation" duration-ms="11921" started-at="2019-05-04T16:52:23Z" data-provider="testData" finished-at="2019-05-04T16:52:35Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DeepakAcademy.DeepakE2EProject.homePage@6c80d78a]" name="basePageNavigation" duration-ms="13282" started-at="2019-05-05T21:01:57Z" data-provider="testData" finished-at="2019-05-05T21:02:10Z">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DeepakAcademy.DeepakE2EProject.homePage@6c80d78a]" name="tearDown" is-config="true" duration-ms="1158" started-at="2019-05-04T16:52:35Z" finished-at="2019-05-04T16:52:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DeepakAcademy.DeepakE2EProject.homePage@6c80d78a]" name="tearDown" is-config="true" duration-ms="1136" started-at="2019-05-05T21:02:10Z" finished-at="2019-05-05T21:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

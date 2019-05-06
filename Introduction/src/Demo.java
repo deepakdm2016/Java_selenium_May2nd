@@ -1,7 +1,12 @@
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Demo {
 
@@ -10,17 +15,34 @@ public class Demo {
 		//webdriver.gecko.driver
 		//webdriver.ie.driver
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
 		driver.manage().window().setPosition(new Point(0,-2000));
-
+		
+		
+		try{
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//input[@name='ql']"));
+		}
+		catch(NoSuchElementException e)
+		{
+			System.out.println("Important: This exception will be thrown on reaching max time outs");
+			e.printStackTrace();
+		}
+		
+		WebDriverWait w=new WebDriverWait(driver,15);
+		
+		w.until(ExpectedConditions.visibilityOfElementLocated((By.xpath("//input[@name='ql']"))));
+		
 		System.out.println(driver.getCurrentUrl());//if landed on current url, 
 		driver.get("http://yahoo.com");
 		driver.navigate().back();
 		
 		driver.get("http://facebook.com");
+		
+		
 		//driver.findElement(By.id("email")).sendKeys("dipud_m@yahoo.co.in");
 		driver.findElement(By.cssSelector("#email")).sendKeys("dipud_m@yahoo.co.in");
 		
