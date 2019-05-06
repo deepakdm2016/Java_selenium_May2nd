@@ -31,8 +31,7 @@ public class tableParse2 {
 			
 			if(text.equals("Write effective QA Resume that will turn to interview call"))
 			{
-				System.out.println("Element found");
-				break;
+				System.out.println("Elemnt found");
 			}
 			System.out.println(text);
 			}
