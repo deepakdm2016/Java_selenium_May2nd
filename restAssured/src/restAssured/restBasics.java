@@ -20,6 +20,11 @@ public class restBasics {
 		//body("results[0].geometry.location.lat",equalTo("-33.86882")).and().
 		body("results[0].name", equalTo("Sydney"));
 		
+		
+		//---------------------------------------------------------------
+		
+		
+		
 	}
 
 }
