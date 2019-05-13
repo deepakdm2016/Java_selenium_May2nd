@@ -23,7 +23,8 @@ public class jiraBasics {
 		
 		
 		Response response = given().header("Content-Type", "application/json").
-				header("Cookie","JSESSIONID="+reusableMethods.getSessionId()).body(postData).when().post("/rest/api/2/issue/").then().log().all().extract().response();
+				header("Cookie","JSESSIONID="+reusableMethods.getSessionId()).body(postData).
+				when().post("/rest/api/2/issue/").then().log().all().extract().response();
 		
 		System.out.println(response.asString());
 		
