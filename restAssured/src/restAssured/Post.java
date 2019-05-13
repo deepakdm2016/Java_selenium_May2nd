@@ -62,7 +62,7 @@ public class Post {
 
 				when().
 
-				post("/maps/api/place/add/json").then().assertThat().statusCode(200);
+				post("/maps/api/place/add/json").then().log().all().assertThat().statusCode(200);
 
 	}
 
