@@ -1,0 +1,30 @@
+package herokuApp;
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class sampleTests {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://the-internet.herokuapp.com/drag_and_drop");
+		Actions a=new Actions(driver);
+		WebElement src=driver.findElement(By.xpath("//div[@class='column']"));
+		WebElement destn=driver.findElement(By.xpath("(//div[@class='column'])[2]"));
+		
+		a.click(src).build().perform();
+		//a.dragAndDrop(src, destn).build().perform();
+		
+		a.clickAndHold(src).moveToElement(destn).release().build().perform();
+		System.out.println("done");
+		
+	}
+
+}

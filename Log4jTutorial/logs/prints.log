@@ -1,3 +1,9 @@
 09:40:08.986 [main] ERROR alpha.Demo - It is an error
 09:40:08.993 [main] INFO  alpha.Demo - It is an in formation
 09:40:08.993 [main] FATAL alpha.Demo - It is a fatal error
+00:09:04.769 [main] ERROR alpha.Demo - It is an error
+00:09:04.773 [main] INFO  alpha.Demo - It is an in formation
+00:09:04.773 [main] FATAL alpha.Demo - It is a fatal error
+00:09:38.659 [main] ERROR beta.Demo1 - It is an error
+00:09:38.661 [main] INFO  beta.Demo1 - It is an in formation
+00:09:38.662 [main] FATAL beta.Demo1 - It is a fatal error

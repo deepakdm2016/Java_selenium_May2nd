@@ -10,28 +10,24 @@ public class FrameTest {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
 
-		WebDriver driver=new ChromeDriver();
-
-
+		WebDriver driver = new ChromeDriver();
 
 		driver.get("http://the-internet.herokuapp.com/");
 
-
-
 		driver.findElement(By.linkText("Nested Frames")).click();
-
-
 
 		driver.switchTo().frame("frame-top");
 
-
-
 		driver.switchTo().frame("frame-middle");
 
-		
+		driver.switchTo().parentFrame();
+		driver.switchTo().defaultContent();
+		driver.switchTo().frame("frame-top").switchTo().frame("frame-middle");
 
-		System.out.println(driver.findElement(By.id("content")).getText());			}
+		System.out.println(driver.findElement(By.id("content")).getText());
+	}
 
 }
