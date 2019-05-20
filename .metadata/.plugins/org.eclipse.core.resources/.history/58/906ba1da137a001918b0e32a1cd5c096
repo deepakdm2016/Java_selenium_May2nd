@@ -1,0 +1,12 @@
+package SerializeDeserialize;
+
+public class empMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		employee e1=new employee("389524","DeepakDM");
+		employee e2=new employee("326112","Vinithra");
+		
+	}
+
+}

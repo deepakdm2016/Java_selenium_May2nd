@@ -1,0 +1,23 @@
+package garbageCollection;
+
+public class gcDemo {
+
+	gcDemo()
+	{
+		System.out.println(this +" Created");
+	}
+	public static void main(String[] args) {
+
+		new gcDemo();
+		new gcDemo();
+		
+	}
+		protected void Finalize()
+		{
+			
+			System.out.println(this + " Finalized");
+			
+		}
+	}
+
+

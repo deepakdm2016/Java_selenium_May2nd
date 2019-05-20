@@ -4,14 +4,17 @@
   <test name="Test">
     <classes>
       <class name="CucumberOptions.TestRunner"/>
+      <class name="stepDefination1.stepDefination"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test(failed)">
     <classes>
       <class name="CucumberOptions.TestRunner">
         <methods>
+          <include name="beforeMethodTest"/>
           <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="feature" invocation-numbers="1"/>
+          <include name="AfterMethodTest"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- CucumberOptions.TestRunner -->

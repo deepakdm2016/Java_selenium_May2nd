@@ -1,0 +1,24 @@
+package testNG_1;
+
+import org.testng.annotations.Test;
+
+public class TestA {
+	
+	@Test(priority=1)
+	public void testANG_1()
+	{
+		System.out.println("In testANG_1");
+	}
+
+	@Test(priority=1)
+	public void test2ANG_1()
+	{
+		System.out.println("In test2ANG_1");
+	}
+	
+	@Test(priority=1)
+	public void test3ANG_1()
+	{
+		System.out.println("In test3ANG_1");
+	}
+}

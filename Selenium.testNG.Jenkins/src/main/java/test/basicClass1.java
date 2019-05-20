@@ -25,7 +25,7 @@ public class basicClass1 {
 	public void method2() throws FileNotFoundException, IOException
 	{
 		Properties prop=new Properties();
-		prop.load(new FileInputStream("C:\\Users\\Deepak\\Selenium\\Selenium.testNG.Jenkins\\src\\main\\java\\test\\testng.properties"));
+		prop.load(new FileInputStream("C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\Selenium.testNG.Jenkins\\src\\main\\java\\test\\testng.properties"));
 		
 		System.out.println("TestNg is for "+ prop.getProperty("testng"));
 		System.out.println("Selenium is for "+ prop.getProperty("selenium"));

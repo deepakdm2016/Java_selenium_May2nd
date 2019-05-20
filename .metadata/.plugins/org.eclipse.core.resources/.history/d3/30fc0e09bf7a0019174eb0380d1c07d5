@@ -1,0 +1,13 @@
+package MailFetch.mailFetch;
+
+import org.junit.Test;
+
+public class fetchMails {
+
+	@Test
+	public void getTodaysMail()
+	{
+		
+	}
+	
+}

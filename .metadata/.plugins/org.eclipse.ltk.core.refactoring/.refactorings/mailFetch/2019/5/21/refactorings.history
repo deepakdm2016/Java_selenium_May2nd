@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MailFetch.mailFetch.fetchMails&apos; to &apos;fetchMailsTest&apos;&#x0D;&#x0A;- Original project: &apos;mailFetch&apos;&#x0D;&#x0A;- Original element: &apos;MailFetch.mailFetch.fetchMails&apos;&#x0D;&#x0A;- Renamed element: &apos;MailFetch.mailFetch.fetchMailsTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;fetchMails&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;MailFetch.mailFetch{fetchMails.java[fetchMails" matchStrategy="1" name="fetchMailsTest" qualified="false" references="true" similarDeclarations="false" stamp="1558330007918" textual="false" version="1.0"/>
+</session>

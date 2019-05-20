@@ -3,7 +3,7 @@ package mindTree_inheritence;
 
  class enumTestOrdinal {
 
-	public enum Season { WINTER, SPRING, SUMMER, FALL }  
+	public enum Season { WINTER, SPRING, SUMMER, FALL }  ;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

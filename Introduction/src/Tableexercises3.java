@@ -10,7 +10,7 @@ public class Tableexercises3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("http://demo.guru99.com/test/web-table-element.php#");

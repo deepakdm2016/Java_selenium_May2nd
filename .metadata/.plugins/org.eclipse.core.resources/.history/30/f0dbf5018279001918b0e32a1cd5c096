@@ -1,0 +1,22 @@
+package HCL;
+
+import java.util.Scanner;
+
+public class reverseNumber {
+
+	public static void main(String[] args) {
+
+	Scanner scan=new Scanner(System.in);
+	int nextInt = scan.nextInt();
+	int pow=0;
+	int result=0;
+	while(nextInt>0)
+	{
+	
+		result=result+ int(nextInt%10)*Math.pow(10, pow);
+		
+	}
+	
+	}
+
+}

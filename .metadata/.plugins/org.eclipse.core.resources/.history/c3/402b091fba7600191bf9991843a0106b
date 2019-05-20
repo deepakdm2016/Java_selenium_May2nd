@@ -1,0 +1,16 @@
+package dataBase;
+
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class testConnection {
+
+	public static void main(String[] args) throws SQLException {
+
+		connection conn=new connection();
+		Statement stmt = conn.getConnection();
+		stmt.executeQuery("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'");
+	
+	}
+
+}

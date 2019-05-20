@@ -3,6 +3,10 @@ public class CountCharacter
     public static void main(String[] args) {    
         String string = "The best of both worlds";    
         
+        string=string.replaceAll(" ", "");
+        char[] charArray = string.toCharArray();
+        System.out.println(charArray.length);
+        
         int count = 0;    
             
         //Counts each character except space    

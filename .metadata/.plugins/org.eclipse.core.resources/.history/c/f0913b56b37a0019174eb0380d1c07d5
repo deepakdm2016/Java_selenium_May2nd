@@ -1,0 +1,15 @@
+package HCL;
+
+import java.util.Date;
+
+public class dateTest {
+	
+	public static void main(String v[])
+	{
+		Date today=new Date();
+		today.getDate();
+		System.out.println(today.getDate());
+		System.out.println(today.getYear());
+	}
+
+}

@@ -1,5 +1,5 @@
 1. staleElement exception
-2. Static method can be overridden
+2. Static method can be oveoverloaded overrridden
 3. Implicit, Explicit - element is not found within the stipulated time 
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='ql']"}
 4. If xpath validity has to be found, we can use chropath, console typing, we will get the
@@ -47,3 +47,10 @@ He is a goodgood good good guy
 hello! thank you and 
 Welcome
 byebye bye bye
+
+-------------------------
+1. maximize
+2. minimize - point, dimension class
+		Point p = new Point (2,20);
+				driver.manage().window().setPosition(p);
+3. nested frames

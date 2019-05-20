@@ -1,0 +1,13 @@
+package testNG_2;
+
+import org.testng.annotations.Test;
+
+public class TestA {
+	
+	@Test(priority=3, groups={"smoke"})
+	public void testANG_2()
+	{
+		System.out.println("In testANG_2");
+	}
+
+}

@@ -12,8 +12,8 @@ public class stringTokenizer {
 	{
 		String a="he is a good good boy? isn't it";
 		
-		a=a.replaceAll("[^A-Z a-z]", " ");
-		a=a.replaceAll("  ", " ");
+		a=a.replaceAll("[^A-Z a-z]", "");
+	//	a=a.replaceAll("  ", " ");
 
 		String[] abc=a.split(" ");
 		

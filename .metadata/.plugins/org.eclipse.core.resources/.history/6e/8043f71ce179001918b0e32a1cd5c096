@@ -1,0 +1,23 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class disabledText {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://ksrtc.in/oprs-web/guest/home.do?h=1");
+
+		WebElement text = driver.findElement(By.xpath("//input[@id='fromPlaceName']"));
+
+		System.out.println(text.getAttribute("value"));
+		
+		driver.close();
+	}
+
+}

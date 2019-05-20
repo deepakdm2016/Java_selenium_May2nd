@@ -30,14 +30,14 @@ public class Post_xml {
 	public void getData() throws FileNotFoundException, IOException
 	{
 		 prop=new Properties();
-		prop.load(new FileInputStream(new File("C:\\Users\\Deepak\\Selenium\\restAssured\\src\\files\\environment.properties")));
+		prop.load(new FileInputStream(new File("C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\restAssured\\src\\files\\environment.properties")));
 	}
 	
 
 	@Test
 	public void testData() throws IOException {
 		
-		String postData=GenerateStringFromResource("C:\\Users\\Deepak\\Selenium\\restAssured\\src\\files\\postdata.xml");
+		String postData=GenerateStringFromResource("C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\restAssured\\src\\files\\postdata.xml");
 		RestAssured.baseURI = prop.getProperty("host");
 		ValidatableResponse varOutput = given().queryParam("key", "qaclick123").
 

@@ -24,7 +24,7 @@ public class Post {
 	public void getData() throws FileNotFoundException, IOException
 	{
 		 prop=new Properties();
-		prop.load(new FileInputStream(new File("C:\\Users\\Deepak\\Selenium\\restAssured\\src\\files\\environment.properties")));
+		prop.load(new FileInputStream(new File("C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\restAssured\\src\\files\\environment.properties")));
 	}
 	
 

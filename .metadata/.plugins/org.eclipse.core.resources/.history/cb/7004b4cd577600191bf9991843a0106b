@@ -1,0 +1,24 @@
+package testNG_3;
+
+import org.testng.annotations.Test;
+
+public class TestA {
+	
+	@Test(priority=1, groups={"smoke"}, enabled="flase")
+	public void testANG_3()
+	{
+		System.out.println("In testANG_3");
+	}
+
+	@Test(priority=2,groups={"smoke"},dependsOnMethods={"testANG_3"})
+	public void testA2NG_3()
+	{
+		System.out.println("In testA2NG_3");
+	}
+	
+	@Test(priority=1)
+	public void testA3NG_3()
+	{
+		System.out.println("In testA3NG_1");
+	}
+}

@@ -1,0 +1,22 @@
+package Collections;
+
+import java.util.Arrays;
+
+public class ArraysSort {
+
+	public static void main(String[] args) {
+
+		int a[]={40, 10, 5, 6};
+		for(int i:a)
+			System.out.println(i);
+	
+		Arrays.sort(a);
+		for(int i:a)
+			System.out.println(i);
+		
+		Comparator<Integer> c
+		Arrays.sort(a, c);
+	
+	}
+
+}

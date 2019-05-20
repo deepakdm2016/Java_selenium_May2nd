@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="CucumberOptions.TestRunner"/>
+      <class name="stepDefination1.stepDefination"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

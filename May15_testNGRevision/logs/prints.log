@@ -1,0 +1,25 @@
+06:26:21.662 [TestNG-test=TestNG_1-1] INFO  testNG_3.TestA - A 6
+06:26:21.670 [TestNG-test=TestNG_1-1] INFO  testNG_3.TestA - B 7
+06:26:21.670 [TestNG-test=TestNG_1-1] INFO  testNG_3.TestA - A+B 13
+06:26:21.670 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - I am success with the test
+06:26:21.672 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - Mother ManjulaFather:Manjunath
+06:26:21.672 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - Prithvi
+06:26:21.672 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - My name is:Deepak emp id: 389524
+06:26:21.672 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - I am starting the test
+06:26:21.675 [TestNG-test=TestNG_1-1] INFO  testNG_2.TestA - In testANG_2
+06:26:21.675 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - I am success with the test
+06:26:21.676 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - Mother ManjulaFather:Manjunath
+06:26:21.676 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - Prithvi
+06:26:21.676 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - My name is:Deepak emp id: 389524
+06:26:21.676 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - I am starting the test
+06:26:21.676 [TestNG-test=TestNG_1-1] INFO  testNG_2.TestB - In testBNG_2
+06:26:21.676 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - I am success with the test
+06:26:21.677 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - Mother ManjulaFather:Manjunath
+06:26:21.677 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - Prithvi
+06:26:21.677 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - My name is:Deepak emp id: 389524
+06:26:21.677 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - I am starting the test
+06:26:21.677 [TestNG-test=TestNG_1-1] INFO  testNG_1.TestA - In testA2NG_1
+06:26:21.678 [TestNG-test=TestNG_1-1] INFO  testNG_1.myListener - I am success with the test
+06:26:21.678 [main] INFO  testNG_1.annotationTest - After Test execution
+06:26:26.726 [main] INFO  testNG_1.myListener - I am on finish with the test
+06:26:26.728 [main] INFO  testNG_1.annotationTest - After Suite execution

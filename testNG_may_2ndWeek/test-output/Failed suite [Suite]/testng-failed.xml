@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="classes">
+  <parameter name="EmplId" value="389524"/>
+  <test name="TestNG_1(failed)(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNG_3.TestA">
+        <methods>
+          <include name="testA2NG_3"/>
+          <include name="testANG_3"/>
+        </methods>
+      </class> <!-- testNG_3.TestA -->
+    </classes>
+  </test> <!-- TestNG_1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

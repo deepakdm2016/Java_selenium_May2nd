@@ -24,7 +24,7 @@ public class base {
 	{
 		//chroe, firefox, ie, safari - make it global
 		prop=new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\Deepak\\Selenium\\E2E1Project\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\E2E1Project\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String browser=prop.getProperty("browser");
 		System.out.println(browser);

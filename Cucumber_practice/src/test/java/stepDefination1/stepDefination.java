@@ -2,6 +2,8 @@ package stepDefination1;
 
 import org.junit.Assert;
 import org.junit.runner.RunWith;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -26,6 +28,10 @@ public class stepDefination {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("user login into application with username and password");
 		System.out.println(strArg1 + " LoggedIn");
+		if(strArg1.equals("Rajesh"))
+		{
+			Assert.assertTrue(false);
+		}
 	}
 
 	@Then("Home page is populated")
@@ -42,5 +48,6 @@ public class stepDefination {
 		Assert.assertTrue(true);
 		System.out.print(strArg1);
 	}
+	
 
 }

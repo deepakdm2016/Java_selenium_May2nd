@@ -8,7 +8,7 @@ public class count_no_of_words_string {
 		
 		HashMap<Integer,Integer> tata=new HashMap<Integer, Integer>();
 		
-		
+	
 		
 		
 		for (int i=0;i<a.length;i++)

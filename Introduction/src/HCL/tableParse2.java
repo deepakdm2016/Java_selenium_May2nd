@@ -13,7 +13,7 @@ public class tableParse2 {
 		// TODO Auto-generated method stub
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("http://www.qaclickacademy.com/practice.php");

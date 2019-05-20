@@ -19,9 +19,11 @@ public class handleFrames {
 		
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		
-		
 		String script="return document.getElementById(\"input1\").value;";
 		String text=(String) js.executeScript(script);
+		
+		js.executeScript("window.scrollBy(0,800)");
+		
 		System.out.println(text);
 		
 		

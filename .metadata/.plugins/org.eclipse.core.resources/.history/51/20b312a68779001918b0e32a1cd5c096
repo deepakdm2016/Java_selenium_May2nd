@@ -1,0 +1,10 @@
+package HCL;
+
+public class reverse_each_word_string {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

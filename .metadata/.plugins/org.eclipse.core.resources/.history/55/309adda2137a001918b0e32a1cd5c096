@@ -1,0 +1,10 @@
+package SerializeDeserialize;
+
+public class empMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

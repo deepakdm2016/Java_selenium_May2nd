@@ -15,7 +15,7 @@ public class Demo {
 		//webdriver.gecko.driver
 		//webdriver.ie.driver
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.com");
 		System.out.println(driver.getTitle());

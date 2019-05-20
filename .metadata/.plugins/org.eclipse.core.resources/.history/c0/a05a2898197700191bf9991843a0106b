@@ -1,0 +1,13 @@
+package Collections;
+
+public class Genericgenerics<T> {
+	
+	{
+
+		Object T;
+		
+	
+	
+	}
+
+}

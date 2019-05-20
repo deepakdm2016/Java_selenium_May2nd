@@ -18,7 +18,7 @@ public class jiraBasics {
 	{
 		
 		RestAssured.baseURI="http://localhost:8080";
-		String postData=GenerateStringFromResource("C:\\Users\\Deepak\\Selenium\\restAssured\\src\\jiraAPI\\jira_defect.json");
+		String postData=GenerateStringFromResource("C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\restAssured\\src\\jiraAPI\\jira_defect.json");
 		
 		
 		Response response = given().header("Content-Type", "application/json").

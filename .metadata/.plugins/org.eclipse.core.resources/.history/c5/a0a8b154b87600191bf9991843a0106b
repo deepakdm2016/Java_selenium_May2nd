@@ -1,0 +1,13 @@
+package dataBase;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class connection {
+
+	public void getConnection() throws SQLException
+	{
+		
+		DriverManager.getConnection("jdbc:mysql//localhost:3308/hb-01-one-to-one-uni","hbstudent","hbstudent");
+	}
+}

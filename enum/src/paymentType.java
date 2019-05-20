@@ -1,4 +1,4 @@
 
-public enum paymentType {CREDITCARD, DEBITCARD, CASH;
+public enum paymentType {CREDITCARD, DEBITCARD, CASH};
 
-}
+

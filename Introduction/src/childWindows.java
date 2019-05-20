@@ -4,6 +4,7 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class childWindows {
 
@@ -20,6 +21,8 @@ public class childWindows {
 		Iterator<String> it=ids.iterator();
 		String parentId=it.next();
 		String childId=it.next();
+
+		
 
 		driver.switchTo().window(childId);
 		System.out.println(driver.getTitle());

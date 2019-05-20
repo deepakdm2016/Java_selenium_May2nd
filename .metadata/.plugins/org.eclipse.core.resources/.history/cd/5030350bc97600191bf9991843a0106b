@@ -1,0 +1,29 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Random;
+import java.util.Set;
+
+public class setDemo {
+
+	public static void main(String v[])
+	{
+		
+		Set<Integer> demoSet=new LinkedHashSet<Integer>();
+		List<Integer> demoList=new ArrayList<Integer>();
+
+		Random r=new Random(100);
+		for(int i=0;i<10;i++)
+		{
+			demoSet.add(r.nextInt(5));
+			demoList.add(r.nextInt(5));
+		}
+		
+		System.out.println(demoSet);
+		System.out.println(demoList);
+
+	}
+}

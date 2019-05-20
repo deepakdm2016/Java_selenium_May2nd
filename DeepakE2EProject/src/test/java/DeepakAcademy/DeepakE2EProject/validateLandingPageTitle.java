@@ -25,7 +25,7 @@ public class validateLandingPageTitle extends Base {
 		
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				new File("C:\\Users\\Deepak\\Selenium\\DeepakE2EProject\\input.properties"));
+				new File("C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\DeepakE2EProject\\input.properties"));
 		prop.load(fis);
 
 		String url = prop.getProperty("url");

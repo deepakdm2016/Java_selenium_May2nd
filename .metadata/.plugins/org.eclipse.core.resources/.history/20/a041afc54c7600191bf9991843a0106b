@@ -1,0 +1,11 @@
+package testNG_1;
+
+public class TestA {
+	
+	@Test
+	public void testANG_1()
+	{
+		System.out.println("In testANG_1");
+	}
+
+}

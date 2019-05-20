@@ -1,0 +1,21 @@
+package dataBase;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class testConnection {
+
+	public static void main(String[] args) throws SQLException {
+
+		connection conn=new connection();
+		Statement stmt = conn.getConnection();
+		ResultSet rs = stmt.executeQuery("select * from hb_student_tracker.student");
+		while(rs.next())
+		{
+			System.out.println(rs.getString("first_name"));
+		}
+	
+	}
+
+}

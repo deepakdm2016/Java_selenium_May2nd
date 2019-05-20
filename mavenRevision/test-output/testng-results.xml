@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4261" started-at="2019-05-14T00:59:03Z" finished-at="2019-05-14T00:59:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4261" started-at="2019-05-14T00:59:03Z" finished-at="2019-05-14T00:59:08Z">
+      <class name="jiraAPI.jiraBasics">
+        <test-method status="PASS" signature="jiraAPI()[pri:0, instance:jiraAPI.jiraBasics@63021689]" name="jiraAPI" duration-ms="244" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraAPI -->
+      </class> <!-- jiraAPI.jiraBasics -->
+      <class name="DeepakAcademy.mavenRevision.SeleniumTest">
+        <test-method status="PASS" signature="seleniumAutomation()[pri:0, instance:DeepakAcademy.mavenRevision.SeleniumTest@3e2e18f2]" name="seleniumAutomation" duration-ms="1" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumAutomation -->
+        <test-method status="PASS" signature="webAutomation()[pri:0, instance:DeepakAcademy.mavenRevision.SeleniumTest@3e2e18f2]" name="webAutomation" duration-ms="1" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAutomation -->
+      </class> <!-- DeepakAcademy.mavenRevision.SeleniumTest -->
+      <class name="jiraAPI.jiraBasics_comment">
+        <test-method status="PASS" signature="jiraAPI()[pri:0, instance:jiraAPI.jiraBasics_comment@cd3fee8]" name="jiraAPI" duration-ms="492" started-at="2019-05-14T06:29:06Z" finished-at="2019-05-14T06:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraAPI -->
+      </class> <!-- jiraAPI.jiraBasics_comment -->
+      <class name="DeepakAcademy.mavenRevision.AppiumTest">
+        <test-method status="PASS" signature="androidAutomation()[pri:0, instance:DeepakAcademy.mavenRevision.AppiumTest@3e92efc3]" name="androidAutomation" duration-ms="2" started-at="2019-05-14T06:29:08Z" finished-at="2019-05-14T06:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidAutomation -->
+        <test-method status="PASS" signature="iosAutomation()[pri:0, instance:DeepakAcademy.mavenRevision.AppiumTest@3e92efc3]" name="iosAutomation" duration-ms="1" started-at="2019-05-14T06:29:08Z" finished-at="2019-05-14T06:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosAutomation -->
+      </class> <!-- DeepakAcademy.mavenRevision.AppiumTest -->
+      <class name="restAssured.Post_xml">
+        <test-method status="PASS" signature="testData()[pri:0, instance:restAssured.Post_xml@3c419631]" name="testData" duration-ms="2373" started-at="2019-05-14T06:29:03Z" finished-at="2019-05-14T06:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- restAssured.Post_xml -->
+      <class name="restAssured.Post">
+        <test-method status="PASS" signature="getData()[pri:0, instance:restAssured.Post@61230f6a]" name="getData" is-config="true" duration-ms="11" started-at="2019-05-14T06:29:03Z" finished-at="2019-05-14T06:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:restAssured.PostDelete@418e7838]" name="getData" is-config="true" duration-ms="0" started-at="2019-05-14T06:29:03Z" finished-at="2019-05-14T06:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:restAssured.Post_xml@3c419631]" name="getData" is-config="true" duration-ms="1" started-at="2019-05-14T06:29:03Z" finished-at="2019-05-14T06:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:libraryAPI.staticJson@3c130745]" name="getData" is-config="true" duration-ms="5" started-at="2019-05-14T06:29:03Z" finished-at="2019-05-14T06:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="testData()[pri:0, instance:restAssured.Post@61230f6a]" name="testData" duration-ms="118" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- restAssured.Post -->
+      <class name="DeepakAcademy.mavenRevision.RestTest">
+        <test-method status="PASS" signature="restAPIAutomation()[pri:0, instance:DeepakAcademy.mavenRevision.RestTest@470f1802]" name="restAPIAutomation" duration-ms="1" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAPIAutomation -->
+        <test-method status="PASS" signature="restAutomation()[pri:0, instance:DeepakAcademy.mavenRevision.RestTest@470f1802]" name="restAutomation" duration-ms="1" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAutomation -->
+      </class> <!-- DeepakAcademy.mavenRevision.RestTest -->
+      <class name="restAssured.PostDelete">
+        <test-method status="PASS" signature="addAndDelete()[pri:0, instance:restAssured.PostDelete@418e7838]" name="addAndDelete" duration-ms="490" started-at="2019-05-14T06:29:06Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndDelete -->
+      </class> <!-- restAssured.PostDelete -->
+      <class name="jiraAPI.jiraBasics_comment_updated">
+        <test-method status="PASS" signature="jiraAPI()[pri:0, instance:jiraAPI.jiraBasics_comment_updated@703580bf]" name="jiraAPI" duration-ms="341" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraAPI -->
+      </class> <!-- jiraAPI.jiraBasics_comment_updated -->
+      <class name="libraryAPI.staticJson">
+        <test-method status="PASS" signature="dynamicJson()[pri:0, instance:libraryAPI.staticJson@3c130745]" name="dynamicJson" duration-ms="118" started-at="2019-05-14T06:29:07Z" finished-at="2019-05-14T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicJson -->
+      </class> <!-- libraryAPI.staticJson -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
