@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/jsonfromDBResult/src/jsonfromDBResult/fetchResults.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="jsonfromDBResult.fetchResults"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="jsonfromDBResult"/>
+</launchConfiguration>

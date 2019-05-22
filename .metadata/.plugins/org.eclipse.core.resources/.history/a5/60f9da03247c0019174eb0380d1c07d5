@@ -1,0 +1,21 @@
+package excelDataProvider.excelDataProvider;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProvider {
+
+	@DataProvider(name="dataFeed")
+	@Test
+	public Object[][] dataFeed()
+	{
+		Object[][] data={{"Deepak", "TCS", 389524},{"Vinithra", "TCS", 326112},{"Nagesh", "TCS", 391065} };
+		return data;
+		
+	}
+
+
+	@Test(dataProvider="dataFeed")
+	public void testData()
+
+}

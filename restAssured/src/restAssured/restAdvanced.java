@@ -21,6 +21,7 @@ public class restAdvanced {
 		when().
 				get("maps/api/place/nearbysearch/json").
 		then().assertThat().statusCode(200).and().contentType(ContentType.JSON).and().
+		
 		//body("results[0].geometry.location.lat",equalTo("-33.86882")).
 		extract().response();
 		

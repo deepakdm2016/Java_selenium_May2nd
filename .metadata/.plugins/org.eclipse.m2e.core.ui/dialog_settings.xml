@@ -74,14 +74,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="excelDataProvider.excelDataProvider"/>
+			<item value="MailFetch.mailFetch"/>
 			<item value="DeepakAcademy.DeepakE2EProject"/>
 			<item value="Academy.Project"/>
 		</list>
 		<list key="groupId">
+			<item value="excelDataProvider"/>
+			<item value="MailFetch"/>
 			<item value="DeepakAcademy"/>
 			<item value="Academy"/>
 		</list>
 		<list key="artifactId">
+			<item value="excelDataProvider"/>
+			<item value="mailFetch"/>
 			<item value="DeepakE2EProject"/>
 			<item value="Project"/>
 		</list>

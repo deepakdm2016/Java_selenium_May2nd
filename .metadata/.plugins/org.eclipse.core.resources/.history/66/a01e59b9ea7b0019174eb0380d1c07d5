@@ -1,0 +1,15 @@
+package jsonfromDBResult;
+
+public class CustomerDetails {
+	
+	private String CourseName;
+	private String Location;
+	private int Amount;
+	private String PurchasedDate;
+	
+	
+	CustomerDetails()
+	{
+		
+	}
+}

@@ -1,0 +1,17 @@
+package googlePlaceAPI;
+
+import io.restassured.RestAssured;
+
+public class restPost {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		RestAssured.baseURI="https://maps.googleapis.com";
+		
+		given().
+		
+		
+		
+	}
+
+}

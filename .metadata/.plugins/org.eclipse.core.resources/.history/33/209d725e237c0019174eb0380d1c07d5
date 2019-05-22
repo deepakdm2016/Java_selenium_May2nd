@@ -1,0 +1,10 @@
+package excelDataProvider.excelDataProvider;
+
+public class dataProvider {
+
+	@DataProvider(name="dataFeed")
+	public Object[][] dataFeed()
+	{
+		
+	}
+}

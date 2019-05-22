@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="jiraAPI.jiraBasics">
+      <class name="googlePlaceAPI.getPlaceDetails">
         <methods>
-          <include name="jiraAPI"/>
+          <include name="restTest"/>
         </methods>
-      </class> <!-- jiraAPI.jiraBasics -->
+      </class> <!-- googlePlaceAPI.getPlaceDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

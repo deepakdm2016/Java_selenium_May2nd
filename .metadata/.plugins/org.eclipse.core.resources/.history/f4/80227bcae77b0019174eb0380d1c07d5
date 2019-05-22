@@ -1,0 +1,14 @@
+package jsonfromDBResult;
+
+import java.sql.DriverManager;
+
+public class fetchResults {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		DriverManager.getConnection("jdbc:mysql://localhoset:3308/Business", ,"hbstudent","hbstudent")
+
+	}
+
+}

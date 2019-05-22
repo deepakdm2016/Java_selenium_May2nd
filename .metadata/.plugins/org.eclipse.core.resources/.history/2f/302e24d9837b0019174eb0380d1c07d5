@@ -1,0 +1,14 @@
+package googlePlaceAPI;
+
+import io.restassured.RestAssured;
+
+public class getPlaceDetails {
+
+	public static void main(String[] args) {
+
+		RestAssured.baseURI="https://maps.googleapis.com";
+		
+		
+	}
+
+}
