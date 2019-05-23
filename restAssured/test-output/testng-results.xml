@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5571" started-at="2019-05-21T15:47:32Z" finished-at="2019-05-21T15:47:37Z">
+  <suite name="Default suite" duration-ms="3593" started-at="2019-05-23T05:01:22Z" finished-at="2019-05-23T05:01:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5571" started-at="2019-05-21T15:47:32Z" finished-at="2019-05-21T15:47:37Z">
+    <test name="Default test" duration-ms="3593" started-at="2019-05-23T05:01:22Z" finished-at="2019-05-23T05:01:25Z">
       <class name="googlePlaceAPI.getPlaceDetails">
-        <test-method status="PASS" signature="restTest()[pri:0, instance:googlePlaceAPI.getPlaceDetails@204f30ec]" name="restTest" duration-ms="5529" started-at="2019-05-21T21:17:32Z" finished-at="2019-05-21T21:17:37Z">
+        <test-method status="PASS" signature="restTest()[pri:0, instance:googlePlaceAPI.getPlaceDetails@204f30ec]" name="restTest" duration-ms="3563" started-at="2019-05-23T10:31:22Z" finished-at="2019-05-23T10:31:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- restTest -->

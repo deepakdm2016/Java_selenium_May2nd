@@ -1,0 +1,29 @@
+package googlePlaceAPI;
+
+import java.net.URL;
+
+import googleAPIFiles.payLoad;
+import googleAPIFiles.resources;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.response.ResponseBodyExtractionOptions;
+
+import static io.restassured.RestAssured.given;
+
+public class addPlace {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		RestAssured.baseURI = "http://216.10.245.166";
+
+		Response response = given().queryParam("key", "qaclick123").body(payLoad.postBody()).
+
+				when().post(resources.postURL()).
+
+				then().assertThat().statusCode(200).extract().response();
+
+		System.out.println(response.asString());
+	}
+
+}

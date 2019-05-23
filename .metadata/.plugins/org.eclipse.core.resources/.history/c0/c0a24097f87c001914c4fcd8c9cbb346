@@ -1,0 +1,15 @@
+package googleAPIFiles;
+
+public class resources {
+
+	public static String postURL()
+	{
+		return "maps/api/place/add/json";
+		
+	}
+	
+	public static String deleteURL()
+	{
+		return "maps/api/place/add/json";
+	}
+}

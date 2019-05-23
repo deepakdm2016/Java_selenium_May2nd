@@ -1,0 +1,54 @@
+package googlePlaceAPI;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class deletePlace {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		RestAssured.baseURI="http://216.10.245.166";
+		
+		 Response response = given().queryParam("key","qaclick123").
+			body("{"+
+					"\"location\":{"+
+					"\"lat\" : -38.383494,"+
+					"\"lng\" : 33.427362"+
+					"},"+
+					"\"accuracy\":50,"+
+					"\"name\":\"Frontline house\","+
+					"\"phone_number\":\"(+91) 983 893 3937\","+
+					"\"address\" : \"29, side layout, cohen 09\","+
+					"\"types\": [\"shoe park\",\"shop\"],"+
+					"\"website\" : \"http://google.com\","+
+					"\"language\" : \"French-IN\""+
+					"}").
+
+		when().post("maps/api/place/add/json").
+			
+		then().assertThat().statusCode(200).extract().response();
+		
+		 System.out.println(response.asString());
+		
+		String res=response.asString();
+		JsonPath js=new JsonPath(res);
+		System.out.println(js);
+		String placeId = js.get("place_id");
+		
+		
+		RestAssured.baseURI="http://216.10.245.166";
+		
+		given().queryParam("key", "qaclick123").
+		body("{"+
+				"\"place_id\":\"8b8f4124a7675046d6a17af660244f7a\" "+
+				"}")
+
+	}
+
+}
