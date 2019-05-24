@@ -1,0 +1,12 @@
+package stepDefinations;
+
+
+public class stepDefination {
+	
+	@Test
+	public void user()
+	{
+		
+	}
+
+}

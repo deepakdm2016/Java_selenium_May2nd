@@ -1,0 +1,8 @@
+09:18:48.282 [main] DEBUG resources.Base - Firefox Launched
+09:18:51.041 [main] DEBUG resources.Base - Validating if title is present or not
+09:18:51.680 [main] INFO  resources.Base - screenshot taken basePageNavigationscreenShot.png
+09:18:55.670 [main] DEBUG resources.Base - Firefox Launched
+09:18:58.305 [main] DEBUG resources.Base - url Launched
+09:18:58.306 [main] DEBUG resources.Base - clicking on login 
+09:19:03.153 [main] DEBUG resources.Base - Entering username and email
+09:19:08.942 [main] DEBUG resources.Base - Firefox Launched

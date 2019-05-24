@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (6)" project="DeepakE2EProjectCucumber" tests="10" started="10" failures="0" errors="0" ignored="4">
+  <testsuite name="CucumberOptions.TestRunner" time="21.408">
+    <testsuite name="Feature: Login into application" time="21.408">
+      <testsuite name="Scenario Outline: Positive test validating ligin" time="21.408">
+        <testsuite name="Examples:" time="21.408">
+          <testsuite name="| test99@gmail.com | 123456 |" time="8.631" incomplete="true">
+            <skipped/>
+            <testcase name="Given Initialize browser in chrome" classname="| test99@gmail.com | 123456 |" time="2.906"/>
+            <testcase name="And navigate to &quot;http://qaclickacademy.com&quot; site" classname="| test99@gmail.com | 123456 |" time="5.72"/>
+            <testcase name="And click on loginlink in homepage to land on secure sign in page" classname="| test99@gmail.com | 123456 |" time="0.004"/>
+            <testcase name="When user enters test99@gmail.com and 123456" classname="| test99@gmail.com | 123456 |" time="0.0" ignored="true"/>
+            <testcase name="Then verify that user is successfully logged in" classname="| test99@gmail.com | 123456 |" time="0.001" ignored="true"/>
+          </testsuite>
+          <testsuite name="| deepak@gmail.com | 123456 |" time="8.488" incomplete="true">
+            <skipped/>
+            <testcase name="Given Initialize browser in chrome" classname="| deepak@gmail.com | 123456 |" time="2.759"/>
+            <testcase name="And navigate to &quot;http://qaclickacademy.com&quot; site" classname="| deepak@gmail.com | 123456 |" time="5.726"/>
+            <testcase name="And click on loginlink in homepage to land on secure sign in page" classname="| deepak@gmail.com | 123456 |" time="0.001"/>
+            <testcase name="When user enters deepak@gmail.com and 123456" classname="| deepak@gmail.com | 123456 |" time="0.001" ignored="true"/>
+            <testcase name="Then verify that user is successfully logged in" classname="| deepak@gmail.com | 123456 |" time="0.0" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

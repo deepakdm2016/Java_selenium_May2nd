@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (5)" project="cucumberRevision" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="0.015">
+    <testsuite name="Feature: Application login" time="0.015">
+      <testsuite name="Scenario: Home page default login" time="0.015">
+        <testcase name="Given User is on netbanking landing page" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="When user login into application with proper &quot;Deepak&quot; and &quot;389524&quot;" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="Then home page is populated" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="And Cards are displayed" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="Given User is on netbanking landing page" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="When user login into application with proper &quot;Nagesh&quot; and &quot;325678&quot;" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="Then home page is populated" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="And Cards are displayed" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="Given User is on netbanking landing page" classname="Scenario: Home page default login" time="0.002"/>
+        <testcase name="When user login into application with proper &quot;Vinithra&quot; and &quot;326112&quot;" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="Then home page is populated" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="And Cards are displayed" classname="Scenario: Home page default login" time="0.006"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
