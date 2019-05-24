@@ -1,0 +1,58 @@
+package libraryAPIRevision;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+public class getBook {
+
+	@Test
+	public void addBook()
+	{
+		RestAssured.baseURI="http://216.10.245.166";
+		
+		Response response = given().header("Content-Type", "application/json")
+		.body(payLoadLibrary.libraryPayLoad()).log().all().
+		when().post("/Library/Addbook.php").
+		then().assertThat().statusCode(200).log().all().extract().response();
+	
+		String res = response.asString();
+		JsonPath x=new JsonPath(res);
+		System.out.println("ID: "+x.get("ID"));
+		String id=x.get("ID");
+		deleteBook(id);
+		
+		
+
+	}
+	
+	
+	@Test(dependsOnMethods={"addBook"})
+	public void deleteBook(String id)
+	{
+		RestAssured.baseURI="http://216.10.245.166";
+		
+		given().header("Content-Type", "application/json").
+		body("{"+
+				"\"ID\" : "+id+
+				"}").log().all().
+		when().post("/Library/DeleteBook.php").
+		then().assertThat().statusCode(200).log().all();
+		
+		
+	}
+	
+	@DataProvider
+	public Object[][] feeder()
+	{
+		return null;
+		
+	}
+
+		
+}
