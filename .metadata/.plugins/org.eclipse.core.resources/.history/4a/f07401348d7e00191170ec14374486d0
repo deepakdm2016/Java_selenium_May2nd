@@ -1,0 +1,33 @@
+package restAPIRevision;
+
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+
+import static io.restassured.RestAssured.given;
+
+
+public class addComment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String sessionid=Authentication.getSessionId();
+		System.out.println(sessionid);
+
+		RestAssured.baseURI="http://localhost:8080";
+		Response res=given().header("Content-Type","application/json").
+		header("Cookie", "JSESSIONID="+sessionid).
+		body("{"+
+				"    \"body\": \"This is a comment regarding the quality of the response for wires.\""+
+				"}").log().all().when().post("rest/api/2/issue/").
+		then().assertThat().statusCode(201).log().all().extract().response();
+		
+		String response=res.asString();
+		JsonPath js=new JsonPath(response);
+		String id=js.get("id");
+		String key=js.get("key");
+		System.out.println("ID: "+id+" and"+ " key:"+key);
+	}
+
+}

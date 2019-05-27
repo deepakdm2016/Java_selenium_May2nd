@@ -15,7 +15,7 @@ public class mapcheck {
 		slist.add("to");
 		slist.add("work");
 	
-		slist.stream().map(s ->s.toUpperCase()).forEach(s->System.out.println(s));
+		slist.stream().filter(s->s.length()>5).map(s ->s.toUpperCase()).forEach(s->System.out.println(s));
 		
 	}
 }

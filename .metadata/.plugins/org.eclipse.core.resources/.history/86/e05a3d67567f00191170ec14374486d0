@@ -1,0 +1,10 @@
+package androidRevision;
+
+public class testBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

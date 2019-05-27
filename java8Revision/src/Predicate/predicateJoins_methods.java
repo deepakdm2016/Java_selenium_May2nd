@@ -12,6 +12,8 @@ public class predicateJoins_methods {
 
 		System.out.println("Applying Predicate p1");
 		predicateMethod(p1, x);
+		
+		System.out.println(p1.and(p2).test(78));
 		System.out.println("Applying Predicate p2");
 
 		predicateMethod(p2, x);

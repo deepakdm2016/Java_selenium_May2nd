@@ -1,0 +1,13 @@
+package restAPIRevision;
+
+public class createIssue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String sessionid=Authentication.getSessionId();
+		System.out.println(sessionid);
+
+	}
+
+}

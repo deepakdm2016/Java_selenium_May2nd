@@ -16,7 +16,8 @@ public class testStream {
 		System.out.println(li);
 
 		
-		List<Integer> collect = li.stream().filter(i->i%2==0).collect(Collectors.toList());
+		List<Integer> collect = li.stream().filter(i->i%2==0).
+				collect(Collectors.toList());
 		System.out.println(collect);
 		
 		

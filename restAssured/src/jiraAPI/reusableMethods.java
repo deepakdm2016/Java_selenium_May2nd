@@ -24,7 +24,7 @@ public class reusableMethods {
 		
 		RestAssured.baseURI="http://localhost:8080";
 		Response response = given().header("Content-Type", "application/json").body
-		("{\"username\": \"deepakdm2016\",\"password\": \"Vinayaka@2019\"}").log().all().when().post("/rest/auth/1/session").
+		("{\"username\": \"deepakdm2016\",\"password\": \"Vinayaka@2019_1\"}").log().all().when().post("/rest/auth/1/session").
 		then().log().all().statusCode(200).extract().response();	
 		String asString = response.asString();
 

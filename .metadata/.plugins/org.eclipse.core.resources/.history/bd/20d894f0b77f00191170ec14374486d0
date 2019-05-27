@@ -1,0 +1,18 @@
+package TinyWorld;
+
+public class Human {
+
+	String name;
+	int age;
+	int heightIninches;
+	String eyeColor;
+	
+	public void speak()
+	{
+		System.out.println("Hello I am: "+ name);
+		System.out.println("My age is"+ age);
+		System.out.println("Height "+ heightIninches);
+		System.out.println("Eye Color: "+ eyeColor);
+
+	}
+}
