@@ -1,66 +1,61 @@
-13:10:26.006 [main] INFO  restAPIRevision.getIssues - ID: 10401
-13:10:26.031 [main] INFO  restAPIRevision.getIssues - Key: RA-29
-13:10:26.047 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.047 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.063 [main] INFO  restAPIRevision.getIssues - ID: 10400
-13:10:26.076 [main] INFO  restAPIRevision.getIssues - Key: RA-28
-13:10:26.089 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.089 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.099 [main] INFO  restAPIRevision.getIssues - ID: 10309
-13:10:26.109 [main] INFO  restAPIRevision.getIssues - Key: RA-27
-13:10:26.126 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.126 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.141 [main] INFO  restAPIRevision.getIssues - ID: 10308
-13:10:26.147 [main] INFO  restAPIRevision.getIssues - Key: RA-26
-13:10:26.157 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.157 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.174 [main] INFO  restAPIRevision.getIssues - ID: 10307
-13:10:26.182 [main] INFO  restAPIRevision.getIssues - Key: RA-25
-13:10:26.189 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.189 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.197 [main] INFO  restAPIRevision.getIssues - ID: 10306
-13:10:26.209 [main] INFO  restAPIRevision.getIssues - Key: RA-24
-13:10:26.226 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.227 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.242 [main] INFO  restAPIRevision.getIssues - ID: 10305
-13:10:26.255 [main] INFO  restAPIRevision.getIssues - Key: RA-23
-13:10:26.266 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.266 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.277 [main] INFO  restAPIRevision.getIssues - ID: 10304
-13:10:26.286 [main] INFO  restAPIRevision.getIssues - Key: RA-22
-13:10:26.292 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.292 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.304 [main] INFO  restAPIRevision.getIssues - ID: 10303
-13:10:26.317 [main] INFO  restAPIRevision.getIssues - Key: RA-21
-13:10:26.332 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect - May 25 2019
-13:10:26.332 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.344 [main] INFO  restAPIRevision.getIssues - ID: 10301
-13:10:26.360 [main] INFO  restAPIRevision.getIssues - Key: RA-19
-13:10:26.368 [main] INFO  restAPIRevision.getIssues - Summary: Wires Defect
-13:10:26.368 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.376 [main] INFO  restAPIRevision.getIssues - ID: 10300
-13:10:26.394 [main] INFO  restAPIRevision.getIssues - Key: RA-18
-13:10:26.413 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
-13:10:26.413 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.441 [main] INFO  restAPIRevision.getIssues - ID: 10203
-13:10:26.458 [main] INFO  restAPIRevision.getIssues - Key: RA-17
-13:10:26.466 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
-13:10:26.467 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.476 [main] INFO  restAPIRevision.getIssues - ID: 10202
-13:10:26.483 [main] INFO  restAPIRevision.getIssues - Key: RA-16
-13:10:26.495 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
-13:10:26.495 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.505 [main] INFO  restAPIRevision.getIssues - ID: 10201
-13:10:26.515 [main] INFO  restAPIRevision.getIssues - Key: RA-15
-13:10:26.524 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
-13:10:26.524 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.538 [main] INFO  restAPIRevision.getIssues - ID: 10200
-13:10:26.546 [main] INFO  restAPIRevision.getIssues - Key: RA-14
-13:10:26.557 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
-13:10:26.557 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.562 [main] INFO  restAPIRevision.getIssues - ID: 10109
-13:10:26.576 [main] INFO  restAPIRevision.getIssues - Key: RA-13
-13:10:26.585 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
-13:10:26.585 [main] INFO  restAPIRevision.getIssues - ******************************
-13:10:26.593 [main] INFO  restAPIRevision.getIssues - ID: 10108
-13:10:26.602 [main] INFO  restAPIRevision.getIssues - Key: RA-12
+13:10:26.614 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.618 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.625 [main] INFO  restAPIRevision.getIssues - ID: 10107
+13:10:26.633 [main] INFO  restAPIRevision.getIssues - Key: RA-11
+13:10:26.642 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.642 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.648 [main] INFO  restAPIRevision.getIssues - ID: 10106
+13:10:26.665 [main] INFO  restAPIRevision.getIssues - Key: RA-10
+13:10:26.672 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.672 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.681 [main] INFO  restAPIRevision.getIssues - ID: 10105
+13:10:26.687 [main] INFO  restAPIRevision.getIssues - Key: RA-9
+13:10:26.704 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.704 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.747 [main] INFO  restAPIRevision.getIssues - ID: 10104
+13:10:26.752 [main] INFO  restAPIRevision.getIssues - Key: RA-8
+13:10:26.762 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.762 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.771 [main] INFO  restAPIRevision.getIssues - ID: 10103
+13:10:26.774 [main] INFO  restAPIRevision.getIssues - Key: RA-7
+13:10:26.786 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.786 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.797 [main] INFO  restAPIRevision.getIssues - ID: 10102
+13:10:26.801 [main] INFO  restAPIRevision.getIssues - Key: RA-6
+13:10:26.810 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.810 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.815 [main] INFO  restAPIRevision.getIssues - ID: 10101
+13:10:26.822 [main] INFO  restAPIRevision.getIssues - Key: RA-5
+13:10:26.827 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.827 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.835 [main] INFO  restAPIRevision.getIssues - ID: 10100
+13:10:26.842 [main] INFO  restAPIRevision.getIssues - Key: RA-4
+13:10:26.847 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.847 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.857 [main] INFO  restAPIRevision.getIssues - ID: 10002
+13:10:26.861 [main] INFO  restAPIRevision.getIssues - Key: RA-3
+13:10:26.865 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect - Deepakdm
+13:10:26.865 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.873 [main] INFO  restAPIRevision.getIssues - ID: 10001
+13:10:26.883 [main] INFO  restAPIRevision.getIssues - Key: RA-2
+13:10:26.887 [main] INFO  restAPIRevision.getIssues - Summary: debitcard defect
+13:10:26.887 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:26.897 [main] INFO  restAPIRevision.getIssues - ID: 10000
+13:10:26.905 [main] INFO  restAPIRevision.getIssues - Key: RA-1
+13:10:26.911 [main] INFO  restAPIRevision.getIssues - Summary: Creditcard defect
+13:10:26.911 [main] INFO  restAPIRevision.getIssues - ******************************
+13:10:27.007 [main] INFO  restAPIRevision.addComment - Comment:: This is a comment regarding the quality of the response for wires.
+15:16:29.315 [main] INFO  JIRArestAPIRevision.AuthenticationMap - Session Id :AF38975F227070E78525B1A5C212CC84
+09:30:46.096 [main] INFO  JIRArestAPIRevision.Authentication - Session Id :F6ED5F8FC9AC713803DEB4A3C79C93F4
+09:30:46.117 [main] INFO  JIRArestAPIRevision.addComment - F6ED5F8FC9AC713803DEB4A3C79C93F4
+09:30:46.271 [main] INFO  JIRArestAPIRevision.Authentication - Session Id :90F4F07138DFE2BD878A12686C760956
+09:30:46.287 [main] INFO  JIRArestAPIRevision.createIssue - 90F4F07138DFE2BD878A12686C760956
+09:31:00.242 [main] INFO  JIRArestAPIRevision.createIssue - ID: 10410 and key:RA-38
+09:31:00.243 [main] INFO  JIRArestAPIRevision.addComment - RA-38
+09:31:00.546 [main] INFO  JIRArestAPIRevision.addComment - ID: 10409
+09:31:00.908 [main] INFO  JIRArestAPIRevision.addComment - Comment:: This is a comment regarding the quality of the response for wires.
+09:31:13.741 [main] INFO  JIRArestAPIRevision.Authentication - Session Id :E8614CBF8150690F89682721B5450B10
+09:31:13.761 [main] INFO  JIRArestAPIRevision.addComment - E8614CBF8150690F89682721B5450B10
+09:31:13.862 [main] INFO  JIRArestAPIRevision.Authentication - Session Id :5715D453EC72687BE90A4CCA623EE4D8
+09:31:13.871 [main] INFO  JIRArestAPIRevision.createIssue - 5715D453EC72687BE90A4CCA623EE4D8
+09:31:14.469 [main] INFO  JIRArestAPIRevision.createIssue - ID: 10411 and key:RA-39

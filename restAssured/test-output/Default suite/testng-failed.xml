@@ -3,94 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="libraryAPIRevision.getBook">
+      <class name="JIRArestAPIRevision.addComment">
         <methods>
-          <include name="staticJson"/>
-          <include name="addBook" invocation-numbers="0 1 2 3 4"/>
-        </methods>
-      </class> <!-- libraryAPIRevision.getBook -->
-      <class name="libraryAPI.dynamicJson">
-        <methods>
-          <include name="getData"/>
-          <include name="dynamicJson" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
-        </methods>
-      </class> <!-- libraryAPI.dynamicJson -->
-      <class name="restAssured.PostDelete">
-        <methods>
-          <include name="getData"/>
-          <include name="addAndDelete"/>
-        </methods>
-      </class> <!-- restAssured.PostDelete -->
-      <class name="googlePlaceAPI.deletePlaceXml">
-        <methods>
-          <include name="addDelete"/>
-          <include name="getProperties"/>
-        </methods>
-      </class> <!-- googlePlaceAPI.deletePlaceXml -->
-      <class name="restAPIRevision.addComment">
-        <methods>
-          <include name="addIssue"/>
           <include name="addComments"/>
+          <include name="addIssue"/>
         </methods>
-      </class> <!-- restAPIRevision.addComment -->
-      <class name="googlePlaceAPI.addPlaceXML">
-        <methods>
-          <include name="addPlace"/>
-          <include name="getProperties"/>
-        </methods>
-      </class> <!-- googlePlaceAPI.addPlaceXML -->
-      <class name="googlePlaceAPI.getPlaceDetails">
-        <methods>
-          <include name="restTest"/>
-        </methods>
-      </class> <!-- googlePlaceAPI.getPlaceDetails -->
-      <class name="libraryAPI.staticJson">
-        <methods>
-          <include name="getData"/>
-          <include name="dynamicJson"/>
-        </methods>
-      </class> <!-- libraryAPI.staticJson -->
-      <class name="googlePlaceAPI.addPlace">
-        <methods>
-          <include name="getProperties"/>
-          <include name="addPlace"/>
-        </methods>
-      </class> <!-- googlePlaceAPI.addPlace -->
-      <class name="restAssured.Post">
-        <methods>
-          <include name="testData"/>
-          <include name="getData"/>
-        </methods>
-      </class> <!-- restAssured.Post -->
-      <class name="restAssured.PostDeleteXml">
-        <methods>
-          <include name="addAndDelete"/>
-          <include name="getData"/>
-        </methods>
-      </class> <!-- restAssured.PostDeleteXml -->
-      <class name="googlePlaceAPI.deletePlaceJson">
-        <methods>
-          <include name="addDelete"/>
-          <include name="getProperties"/>
-        </methods>
-      </class> <!-- googlePlaceAPI.deletePlaceJson -->
-      <class name="restAssured.Post_xml">
-        <methods>
-          <include name="testData"/>
-          <include name="getData"/>
-        </methods>
-      </class> <!-- restAssured.Post_xml -->
-      <class name="libraryAPIRevision.getBookXML">
-        <methods>
-          <include name="addBook" invocation-numbers="0 1 2 3 4"/>
-          <include name="staticJson"/>
-        </methods>
-      </class> <!-- libraryAPIRevision.getBookXML -->
-      <class name="googlePlaceAPI.getPlaceDetailsXML">
-        <methods>
-          <include name="restTest"/>
-        </methods>
-      </class> <!-- googlePlaceAPI.getPlaceDetailsXML -->
+      </class> <!-- JIRArestAPIRevision.addComment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -20,7 +20,8 @@ public class TestA {
 	}
 
 	
-	@Test(priority=2,groups={"smoke"},dependsOnMethods={"testANG_3"},enabled=true, dataProvider="dataFeed")
+	@Test(priority=2,groups={"smoke"},dependsOnMethods={"testANG_3"},enabled=true, 
+			dataProvider="dataFeed")
 	public void testA2NG_3(int a, int b)
 	{
 		log.info("In testA2NG_3");

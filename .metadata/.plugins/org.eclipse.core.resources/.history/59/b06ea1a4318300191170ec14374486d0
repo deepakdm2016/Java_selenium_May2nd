@@ -1,0 +1,10 @@
+package inheritenceDemo;
+
+public class vehicleCar {
+	
+	String fulel()
+	{
+		return "retro";
+	}
+
+}

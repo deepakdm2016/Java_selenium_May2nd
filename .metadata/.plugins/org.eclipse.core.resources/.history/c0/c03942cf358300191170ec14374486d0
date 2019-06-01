@@ -1,0 +1,9 @@
+package abstraction_interference;
+
+public interface interfaceCar {
+	
+	void go();
+	void stop();
+	
+
+}

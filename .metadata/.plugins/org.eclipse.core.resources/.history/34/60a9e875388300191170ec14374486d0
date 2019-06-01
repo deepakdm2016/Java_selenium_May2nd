@@ -1,0 +1,32 @@
+package polymorphism;
+
+public class overloadingDemo {
+	
+	overloadingDemo()
+	{
+		System.out.println("Default constructor");
+	}
+
+	overloadingDemo(int a)
+	{
+		System.out.println("one arg constructor");
+	}
+	
+	overloadingDemo(int b, int c)
+	{
+		System.out.println("two arg constructor");
+	}
+
+	
+
+	double add(double b, double c)
+	{
+		System.out.println("two arg constructor");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

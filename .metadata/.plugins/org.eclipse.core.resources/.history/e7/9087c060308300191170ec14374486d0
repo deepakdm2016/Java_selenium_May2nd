@@ -1,0 +1,10 @@
+package inheritenceDemo;
+
+public class singleInheritence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

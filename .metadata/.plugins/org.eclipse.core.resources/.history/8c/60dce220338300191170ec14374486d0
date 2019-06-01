@@ -1,0 +1,14 @@
+package inheritenceSuper;
+
+public class testSuper {
+
+	public static void main(String[] args) {
+
+		parent a=new parent(3, 6);
+		a.f1();
+		
+		a=new child();
+		a.f1();
+	}
+
+}

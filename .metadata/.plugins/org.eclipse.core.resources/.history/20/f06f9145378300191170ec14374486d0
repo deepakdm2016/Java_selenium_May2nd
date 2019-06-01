@@ -1,0 +1,13 @@
+package finalDemo;
+
+public final class A {
+	
+	final double a1=3.14;
+
+	public static void main(String v[])
+	{
+		A a=new A();
+		
+	}
+
+}

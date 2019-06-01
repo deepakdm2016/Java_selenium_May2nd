@@ -1,0 +1,18 @@
+package inheritenceDemo;
+
+public class vehicleTest {
+
+	public static void main(String[] args) {
+
+		vehicle a=new vehicle();
+		a.fulel();
+		a=new vehicleCar();
+		System.out.println(a.fulel());
+		a=new vehicleBus();
+		a.fulel();
+		a=new vehicleBike();
+		a.fulel();
+
+	}
+
+}

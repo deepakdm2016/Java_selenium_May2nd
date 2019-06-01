@@ -1,0 +1,10 @@
+package inheritenceDemo;
+
+public class jdk66 {
+	
+	jdk66()
+	{
+		System.out.println("Instantiating jdk6");
+	}
+
+}

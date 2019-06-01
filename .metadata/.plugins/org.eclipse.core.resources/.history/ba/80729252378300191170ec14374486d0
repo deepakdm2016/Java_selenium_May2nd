@@ -1,0 +1,14 @@
+package finalDemo;
+
+public final class A {
+	
+	final double pi=3.14;
+
+	public static void main(String v[])
+	{
+		final A a=new A();
+		a.pi=9.0;
+		
+	}
+
+}
