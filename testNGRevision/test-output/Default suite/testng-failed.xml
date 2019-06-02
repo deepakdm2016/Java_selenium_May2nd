@@ -9,6 +9,20 @@
           <include name="getNumberTest123"/>
         </methods>
       </class> <!-- test123.copy.testA -->
+      <class name="test123.testA2">
+        <methods>
+          <include name="getNumberDoubleBeforeTest"/>
+          <include name="getNumberA2"/>
+          <include name="getNumberDoubleA2"/>
+        </methods>
+      </class> <!-- test123.testA2 -->
+      <class name="test123.copy.testA2">
+        <methods>
+          <include name="getNumbertest123A2"/>
+          <include name="getNumberDoubleTest123A2"/>
+          <include name="getNumberDoubleBeforeTesttest123"/>
+        </methods>
+      </class> <!-- test123.copy.testA2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

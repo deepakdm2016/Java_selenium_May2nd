@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="79" started-at="2019-05-02T03:26:38Z" finished-at="2019-05-02T03:26:38Z">
+  <suite name="Suite" duration-ms="68" started-at="2019-06-02T00:31:46Z" finished-at="2019-06-02T00:31:46Z">
     <groups>
       <group name="Regression">
         <method signature="testA.getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" class="test123.copy.testA"/>
         <method signature="testA.getNumberTest123(java.lang.String, java.lang.String)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberTest123" class="test123.copy.testA"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="testA.getNumber()[pri:0, instance:test123.testA@5ae9a829]" name="getNumber" class="test123.testA"/>
+        <method signature="testA.getNumber()[pri:0, instance:test123.testA@6d8a00e3]" name="getNumber" class="test123.testA"/>
         <method signature="testA.getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" class="test123.copy.testA"/>
         <method signature="testA.getNumberTest123(java.lang.String, java.lang.String)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberTest123" class="test123.copy.testA"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="79" started-at="2019-05-02T03:26:38Z" finished-at="2019-05-02T03:26:38Z">
+    <test name="Test" duration-ms="68" started-at="2019-06-02T00:31:46Z" finished-at="2019-06-02T00:31:46Z">
       <class name="test123.copy.testA">
-        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="12" started-at="2019-05-02T08:56:38Z" data-provider="giveData" finished-at="2019-05-02T08:56:38Z">
+        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="12" started-at="2019-06-02T06:01:46Z" data-provider="giveData" finished-at="2019-06-02T06:01:46Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNumberDoubleTest123 -->
-        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="1" started-at="2019-05-02T08:56:38Z" data-provider="giveData" finished-at="2019-05-02T08:56:38Z">
+        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="2" started-at="2019-06-02T06:01:46Z" data-provider="giveData" finished-at="2019-06-02T06:01:46Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNumberDoubleTest123 -->
-        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="2" started-at="2019-05-02T08:56:38Z" data-provider="giveData" finished-at="2019-05-02T08:56:38Z">
+        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="6" started-at="2019-06-02T06:01:46Z" data-provider="giveData" finished-at="2019-06-02T06:01:46Z">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNumberDoubleTest123 -->
-        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="1" started-at="2019-05-02T08:56:38Z" data-provider="giveData" finished-at="2019-05-02T08:56:38Z">
+        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="1" started-at="2019-06-02T06:01:46Z" data-provider="giveData" finished-at="2019-06-02T06:01:46Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNumberDoubleTest123 -->
-        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="0" started-at="2019-05-02T08:56:38Z" data-provider="giveData" finished-at="2019-05-02T08:56:38Z">
+        <test-method status="PASS" signature="getNumberDoubleTest123(int, int)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberDoubleTest123" duration-ms="2" started-at="2019-06-02T06:01:46Z" data-provider="giveData" finished-at="2019-06-02T06:01:46Z">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNumberDoubleTest123 -->
-        <test-method status="PASS" signature="getNumberTest123(java.lang.String, java.lang.String)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberTest123" duration-ms="2" started-at="2019-05-02T08:56:38Z" depends-on-methods="test123.copy.testA.getNumberDoubleTest123" finished-at="2019-05-02T08:56:38Z">
+        <test-method status="PASS" signature="getNumberTest123(java.lang.String, java.lang.String)[pri:0, instance:test123.copy.testA@48eff760]" name="getNumberTest123" duration-ms="2" started-at="2019-06-02T06:01:46Z" depends-on-methods="test123.copy.testA.getNumberDoubleTest123" finished-at="2019-06-02T06:01:46Z">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
         </test-method> <!-- getNumberTest123 -->
       </class> <!-- test123.copy.testA -->
       <class name="test123.testA">
-        <test-method status="PASS" signature="getNumber()[pri:0, instance:test123.testA@5ae9a829]" name="getNumber" duration-ms="1" started-at="2019-05-02T08:56:38Z" finished-at="2019-05-02T08:56:38Z">
+        <test-method status="PASS" signature="getNumber()[pri:0, instance:test123.testA@6d8a00e3]" name="getNumber" duration-ms="1" started-at="2019-06-02T06:01:46Z" finished-at="2019-06-02T06:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNumber -->

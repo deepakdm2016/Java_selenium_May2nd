@@ -27,11 +27,13 @@ public class MobileBrowser {
 
 		
 		DesiredCapabilities cap=new DesiredCapabilities();
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy_Nexus_API_25");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
 		 AndroidDriver<AndroidElement> driver=new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-		driver.get("http://www.google.com");
-	
+		driver.get("http://facebook.com");
+		driver.findElement(By.id("m_login_email")).sendKeys("dipud_m@yahoo.co.in");
+		driver.findElement(By.id("m_login_password")).sendKeys("389524");
+		driver.findElement(By.xpath("//button[@value='Log In']")).click();
 	}
 
 }

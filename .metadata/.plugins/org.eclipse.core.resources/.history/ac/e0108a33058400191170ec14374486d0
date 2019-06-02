@@ -1,0 +1,24 @@
+package collectionRevision;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class listDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Integer> intList=new ArrayList<>();
+		
+		for(int i=1;i<=10;i++)
+		{
+			intList.add(7*i);
+		}
+		
+		System.out.println(intList);
+		System.out.println
+		(intList.stream().filter(i-> i>40).collect(Collectors.toList()).forEach(i->i+2));
+	}
+
+}
