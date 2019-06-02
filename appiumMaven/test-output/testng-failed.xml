@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="realDeviceSimulator.realDeviceSimulator">
+        <methods>
+          <include name="swipeTest" invocation-numbers="0"/>
+          <include name="testClock" invocation-numbers="0"/>
+          <include name="longPress" invocation-numbers="0"/>
+          <include name="basicTest" invocation-numbers="0"/>
+          <include name="testDragAndDrop" invocation-numbers="0"/>
+          <include name="mobileBrowser"/>
+        </methods>
+      </class> <!-- realDeviceSimulator.realDeviceSimulator -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

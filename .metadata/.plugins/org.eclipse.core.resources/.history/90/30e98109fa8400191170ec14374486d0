@@ -1,0 +1,47 @@
+package realDeviceSimulator;
+
+import java.net.MalformedURLException;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import androidRevision.baseChrome;
+
+public class realDeviceSimulator {
+	AndroidDriver<AndroidElement> driver;
+@Test
+	public void mobileBrowser() throws MalformedURLException{
+		
+		driver=baseChrome.capabilitiesRealDevice();
+		driver.get("http://facebook.com");
+		driver.findElementByXPath("//*[@id='u_0_1']/div[1]/div/input").sendKeys("qwerty");
+		driver.findElementByName("pass").sendKeys("12345");
+		driver.findElementByXPath("//button[@value='Log In']").click();
+
+	}
+
+
+	public void cricBuzz(){
+		
+		driver=baseChrome.capabilitiesRealDevice();
+		driver.get("https://www.cricbuzz.com/");
+		System.out.println(driver.getTitle());
+		driver.findElementByXPath("//a[@href='#menu']").click();
+		driver.findElementByXPath("//a[contains(text(),'Home')]").click();
+		System.out.println(driver.getCurrentUrl());
+
+		JavascriptExecutor js= (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,400);");
+
+		List<AndroidElement> headers = driver.findElements(By.xpath("//h4[@class='cb-list-item ui-header ui-branding-header']"));
+		for(int i=1;i<headers.size();i++)
+		{
+			System.out.println(driver.findElements(By.xpath("//h4[@class='cb-list-item ui-header ui-branding-header']")).get(i).getText());
+		}
+
+	}
+}
