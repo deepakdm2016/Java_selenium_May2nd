@@ -1,6 +1,0 @@
-package exceptionHandling;
-
-public class customeException1 extends Exception{
-	
-
-}

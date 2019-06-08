@@ -1,7 +1,0 @@
-package inheritenceDemo;
-
-public class vehicleBus extends vehicle {
-	
-	
-
-}

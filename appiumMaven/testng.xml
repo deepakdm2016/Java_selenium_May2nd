@@ -4,7 +4,10 @@
   <test name="Test">
     <classes>
       <class name="realDeviceSimulator.realDeviceSimulator"/>
-      <class name="AndroidTestSimulator.simulatorAndroid"/>
     </classes>
   </test> 
 </suite> 
+
+
+<!-- "C:\node.exe" "C:\Appium\node_modules\appium\bin\appium.js" -->
+<!-- Runtime.getRuntime().exec("cmd /c start C:\\appiumstart.bat") -->

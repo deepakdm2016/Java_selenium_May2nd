@@ -21,13 +21,12 @@ public class base {
      File app = new File(appDir, "ApiDemos-debug.apk");
      DesiredCapabilities capabilities = new DesiredCapabilities();
      
-     capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Rahulemulator");
+     capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
      capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
     driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 	    
 	    return driver;
 	}
-	
 	
 
 }

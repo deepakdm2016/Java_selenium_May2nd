@@ -23,8 +23,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.TapOptions;
-import androidRevision.Resources;
-import androidRevision.baseChrome;
+import androidRevision.*;
 
 public class realDeviceSimulator {
 	AndroidDriver<AndroidElement> driver;
@@ -200,7 +199,7 @@ public class realDeviceSimulator {
 		cap1.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 
 		AndroidDriver<AndroidElement> driver1 = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap1);
-		drivers[1][0] = driver1;
+		drivers[0][0] = driver1;
 		drivers[1][1] = "Real Device";
 
 		return drivers;

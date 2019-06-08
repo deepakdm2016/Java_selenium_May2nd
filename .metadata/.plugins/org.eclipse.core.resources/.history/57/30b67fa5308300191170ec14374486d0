@@ -1,9 +1,0 @@
-package inheritenceDemo;
-
-public class childClass {
-
-	public void f2()
-	{
-		System.out.println("Inside f1");
-	}
-}

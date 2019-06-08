@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="realDeviceSimulator.realDeviceSimulator"/>
+    </classes>
+  </test> 
+</suite> 
+
+
+<!-- "C:\node.exe" "C:\Appium\node_modules\appium\bin\appium.js" -->
+<!-- Runtime.getRuntime().exec("cmd /c start C:\\appiumstart.bat) -->

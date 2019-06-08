@@ -1,5 +1,0 @@
-package finalDemo;
-
-public class B extends A{
-
-}

@@ -1,6 +1,7 @@
 package androidRevision;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -12,10 +13,12 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class baseRealDevice {
-public static  AndroidDriver<AndroidElement> capabilities() throws MalformedURLException
+public static  AndroidDriver<AndroidElement> capabilities() throws IOException, InterruptedException
 {
 AndroidDriver<AndroidElement>  driver;
 
+	Runtime.getRuntime().exec("cmd /c start C:\\Users\\Deepak\\Desktop\\startAppium.bat");
+	Thread.sleep(6000);
 // TODO Auto-generated method stub
 /* File appDir = new File("src");
      File app = new File(appDir, "ApiDemos-debug.apk");*/
