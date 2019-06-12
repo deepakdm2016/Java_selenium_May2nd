@@ -1,0 +1,113 @@
+package Basics;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+import java.util.Scanner;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class testDriver3 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://team-scale.com/testo/references/date_picker/");
+	
+		Date current = null;
+		Date datet=null;
+		String date;
+		Scanner s=new Scanner(System.in);
+		
+		do{
+		System.out.println("Please enter the date in format yyyy-mm-dd to pick from calender");
+		date = s.nextLine();
+		
+		
+		try {
+			
+			SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+			datet=sdf.parse(date);
+			System.out.println("input"+datet.toString());
+			
+			
+			
+			Calendar now = Calendar.getInstance();
+	        now.set(Calendar.HOUR, 0);
+	        now.set(Calendar.MINUTE, 0);
+	        now.set(Calendar.SECOND, 0);
+	        System.out.println(sdf.format(now.getTime()));
+	        now.set(Calendar.HOUR_OF_DAY, 0);
+	        
+	        current=now.getTime();
+			
+			System.out.println("input"+current.toString());
+			
+			
+			
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Entered date is invalid");
+		}
+
+	}while(datet.compareTo(current)>=0);
+		String[] date1 = date.split("-");
+		String year = date1[0];
+		String month = date1[1];
+		String day = date1[2];
+		
+		String monthInValue = getMonthInValue(month);
+		
+		
+		driver.findElement(By.xpath("//body//input[1]")).click();
+		String monthyear=monthInValue+" "+year;
+		System.out.println(monthyear);
+
+		String text = driver.findElement(By.xpath("//span[@class='month-year']")).getText();
+		System.out.println(text);
+		if(text.equals(monthyear))
+		{
+			driver.findElements(By.xpath("//td[@class='eformDay' or @class='eformDay today']") ).get(Integer.parseInt(day)-1).click();
+			
+		}
+		
+		
+		else
+		{
+			String text1;
+			do
+			{
+				driver.findElement(By.xpath("//span[@id='next']")).click();
+				 text1= driver.findElement(By.xpath("//span[@class='month-year']")).getText();
+				System.out.println(text1);
+			}
+			while(!text1.equals(monthyear));
+			
+			driver.findElements(By.xpath("//td[@class='eformDay']")).get(Integer.parseInt(day)-1).click();
+			
+		}
+		//driver.close();
+		//driver.quit();
+		s.close();
+	}
+	
+	public static String getMonthInValue(String monthName) {
+		switch (monthName) { 
+			case "01": return "JANUARY"; case "02":return "FEBRUARY";case "03":return "MARCH";
+			case "04":return "APRIL";case "05":return "MAY";case "06":return "JUNE";
+			case "07":return "JULY"; case "08":return "AUGUST";case "09":return "SEPTEMBER";
+			case "10":return "OCTOBER";case "11":return "NOVEMBER";case "12":return "DECEMBER";}
+		return monthName;	
+	}
+
+	
+}

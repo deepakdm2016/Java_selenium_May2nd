@@ -1,0 +1,8 @@
+1. driver.switchTo().frame(1).switchTo().frame(2).driver.findElement(By.id("xxx")).click
+2. Overloading live example - driver.findElement, Assert.AssertEquals
+3. Overriding live example - project explained
+4. findelements, list iteration and string equals
+5. Ternary operator
+6. Asser.assertEquals(actual, expected, message)
+7. set and list difference
+8. Inheritence example

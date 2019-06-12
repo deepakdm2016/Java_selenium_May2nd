@@ -1,0 +1,10 @@
+package AbstractCapGemini;
+
+public class B {
+	
+	public void demo()
+	{
+		System.out.println("Hello");
+	}
+
+}

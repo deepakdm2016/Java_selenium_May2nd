@@ -1,0 +1,27 @@
+package AbstractCapGemini;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class dupChars {
+
+	public static void main(String[] args) {
+
+		String test="Welcome";
+		String temp;
+		Map<String, Integer> mp=new HashMap<String, Integer>();
+		for(int i=0;i<test.length()-1;i++)
+		{
+			temp=test.substring(i, i+1);
+			if(!mp.containsKey("temp"))
+			{
+				mp.put(temp, 1);
+			}
+			else
+				mp.put(temp, mp.get(temp)+1);
+		}
+		
+		System.out.println(mp);
+	}
+
+}

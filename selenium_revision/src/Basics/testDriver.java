@@ -1,6 +1,10 @@
 package Basics;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class testDriver {
@@ -9,20 +13,26 @@ public class testDriver {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("http://www.google.com");
-		System.out.println("Title: "+driver.getTitle());
-		//System.out.println("Page Source: "+driver.getPageSource());
-		System.out.println("Current URL: "+driver.getCurrentUrl());
-		driver.navigate().to("http://www.yahoo.co.in");
-		driver.navigate().back();
-		System.out.println("Title: "+driver.getTitle());
+		driver.get("https://team-scale.com/testo/references/inventory/");
+		List<WebElement> findElements = driver.findElements(By.xpath("//span[@class='title']"));
+		
+		for(int i=0;i<findElements.size();i++)
+		{
+			WebElement webElement = driver.findElements(By.xpath("//span[@class='title']")).get(i);
+		String value=(webElement.getText());
+		String value1=webElement.findElements(By.xpath("//span[@class='price']")).get(i).getText();
+	//	System.out.println(value1);
 
-		driver.navigate().forward();
-		System.out.println("Title: "+driver.getTitle());
+		
+		int price = Integer.parseInt(value1);
+		if(price<50)
+		{
+			System.out.println(value);
+			driver.findElement(By.cssSelector("#answer")).sendKeys(value);
+			driver.findElement(By.cssSelector("#answer")).sendKeys("   ");
 
-		driver.navigate().refresh();
-		System.out.println("Title: "+driver.getTitle());
-
+		}
+		}
 		driver.close();
 		driver.quit();
 	}

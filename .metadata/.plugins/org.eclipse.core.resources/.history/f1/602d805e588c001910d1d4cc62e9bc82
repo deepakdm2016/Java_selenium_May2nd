@@ -1,0 +1,43 @@
+package Basics;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class testDriver3 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://team-scale.com/testo/references/ajax/");
+		System.out.println("Please enter the date in format yyyy-mm-dd to pick from calender");
+		Scanner s=new Scanner(System.in);
+		String date = s.nextLine();
+		String[] date1 = date.split("-");
+		String year = date1[0];
+		String month = date1[1];
+		String day = date1[2];
+
+		//driver.close();
+		//driver.quit();
+	}
+	
+	public static String getMonthInValue(String monthName) {
+		switch (monthName) { 
+			case "JANUARY": return "01"; case "FEBRUARY":return "02";case "MARCH":return "03";
+			case "APRIL":return "04";case "MAY":return "05";case "JUNE":return "06";
+			case "JULY":return "07"; case "AUGUST":return "08";case "SEPTEMBER":return "09";
+			case "OCTOBER":return "10";case "NOVEMBER":return "11";case "DECEMBER":return "12";}
+		return null;	
+	}
+
+	
+}

@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/java-client-7.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/java-client-7.0.0.jar" sourcepath="C:/Users/Deepak/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar"/>
@@ -11,5 +11,7 @@
 	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/cglib-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Deepak/Downloads/asm-6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

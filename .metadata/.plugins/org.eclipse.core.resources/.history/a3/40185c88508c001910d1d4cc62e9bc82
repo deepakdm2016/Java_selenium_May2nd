@@ -1,0 +1,27 @@
+package Basics;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class testDriver2 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://team-scale.com/testo/references/ajax/");
+		
+		WebElement pick=driver.findElement(By.xpath("//select[@id='manufacture']"));
+		
+		Select dropdown= new Select(pick);
+		dropdown.selectByIndex(1);
+		//driver.close();
+		//driver.quit();
+	}
+
+}
