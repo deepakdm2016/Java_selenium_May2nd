@@ -1,0 +1,10 @@
+package com.Deepak.testNG;
+
+public class propDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

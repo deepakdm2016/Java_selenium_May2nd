@@ -1,0 +1,10 @@
+
+public class day1 {
+	
+	@Test
+	public void testngDemo()
+	{
+		System.out.println("First testng program");
+	}
+
+}

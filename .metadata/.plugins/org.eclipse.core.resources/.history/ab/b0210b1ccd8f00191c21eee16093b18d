@@ -1,0 +1,28 @@
+package java8Bharath;
+
+public class NonStaticDemoMethod {
+	
+
+	NonStaticDemoMethod()
+	{
+		System.out.println("Non static method demonstration");
+	}
+	
+	public static void main(String v[])
+	{
+
+		System.out.println("Hello!: In main method");
+		new NonStaticDemoMethod().method1();
+	
+	}
+	
+		{
+			System.out.println("Hello!: Let's demonstrate non static block");
+		}
+	
+	 void method1()
+	{
+		System.out.println("Inside method 1");
+	}
+
+}

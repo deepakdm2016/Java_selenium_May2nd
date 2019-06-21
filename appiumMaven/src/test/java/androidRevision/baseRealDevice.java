@@ -12,23 +12,25 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class baseRealDevice {
-public static  AndroidDriver<AndroidElement> capabilities() throws MalformedURLException
-{
-AndroidDriver<AndroidElement>  driver;
+	public static AndroidDriver<AndroidElement> capabilities() throws MalformedURLException {
+		AndroidDriver<AndroidElement> driver;
 
-// TODO Auto-generated method stub
-/* File appDir = new File("src");
-     File app = new File(appDir, "ApiDemos-debug.apk");*/
-     DesiredCapabilities capabilities = new DesiredCapabilities();
-    
-     capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
-     
-     capabilities.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
-    
-  //   capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
-    driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-   
-   return driver;
-}
+		// TODO Auto-generated method stub
+		/*
+		 * File appDir = new File("src"); File app = new File(appDir,
+		 * "ApiDemos-debug.apk");
+		 */
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
+
+		capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+
+		// capabilities.setCapability(MobileCapabilityType.APP,
+		// app.getAbsolutePath());
+		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+
+		return driver;
+	}
 
 }

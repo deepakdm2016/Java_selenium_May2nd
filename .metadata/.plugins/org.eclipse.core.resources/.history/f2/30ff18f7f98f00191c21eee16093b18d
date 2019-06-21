@@ -1,0 +1,29 @@
+package java8Bharath;
+
+public class Demo {
+	
+
+	Demo()
+	{
+		System.out.println("Non static constructor demonstration");
+	}
+	
+	public static void main(String v[])
+	{
+
+		System.out.println("Hello!: In main method");
+		new Demo().method1();
+		new Demo().method1();
+	
+	}
+	
+		{
+			System.out.println("Hello!: Let's demonstrate non static block");
+		}
+	
+	 void method1()
+	{
+		System.out.println("Inside Non static method 1");
+	}
+
+}

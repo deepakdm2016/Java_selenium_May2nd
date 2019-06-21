@@ -1,0 +1,49 @@
+package com.Deepak.testNG;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class fileUpload {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
+		String downloadPath = System.getProperty("user.dir");
+
+		HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+		chromePrefs.put("profile.default_content_settings.popups", 0);
+		chromePrefs.put("download.default_directory", downloadPath);
+		ChromeOptions options = new ChromeOptions();
+		options.setExperimentalOption("prefs", chromePrefs);
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://altoconvertpdftojpg.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.cssSelector("[class*='btn--choose']")).click();
+		Thread.sleep(3000);
+		Runtime.getRuntime().exec("C:\\Users\\Deepak\\Desktop\\fileUpload.exe");
+		// Thread.sleep(5000);
+		WebDriverWait w = new WebDriverWait(driver, 10);
+
+		By uploadbutton = ((By.xpath("//button[@class='g-btn g-btn--primary g-btn--medium']")));
+
+		w.until(ExpectedConditions.visibilityOfElementLocated(uploadbutton));
+		driver.findElement(uploadbutton).click();
+
+		w.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Download Now"))).click();
+
+		File f = new File(downloadPath + "/Converted.zip");
+		System.out.println("File Exists :" + f.exists());
+
+	}
+
+}

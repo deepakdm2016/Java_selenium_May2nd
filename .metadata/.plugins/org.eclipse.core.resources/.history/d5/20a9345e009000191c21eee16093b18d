@@ -1,0 +1,31 @@
+package java8Bharath;
+
+public class commandLineArgs {
+	
+
+	static commandLineArgs obj=new commandLineArgs();
+	
+	static{
+		System.out.println(commandLineArgs.obj);
+		commandLineArgs.init();
+	}
+
+	public static void main(String v[])
+	{
+		System.out.println(commandLineArgs.obj);
+		commandLineArgs demo = new commandLineArgs();
+		demo.doSomething();
+	}
+
+	static void init()
+	{
+		commandLineArgs.obj=new commandLineArgs();
+		
+	}
+	
+	void doSomething()
+	{
+		System.out.println("Do Something");
+	}
+}
+

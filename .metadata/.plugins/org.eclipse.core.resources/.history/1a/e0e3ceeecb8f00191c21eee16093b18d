@@ -1,0 +1,19 @@
+package java8Bharath;
+
+public class StaticVariables {
+	
+	static int num;
+	public static void main(String v[])
+	{
+		
+		System.out.println("Hello!: In main method");
+		System.out.println("Num: "+ num);
+	
+	}
+		static
+		{
+			System.out.println("Hello!: Let's demonstrate static");
+		}
+	
+
+}

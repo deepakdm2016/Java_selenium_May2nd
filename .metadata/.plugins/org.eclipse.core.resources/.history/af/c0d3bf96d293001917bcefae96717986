@@ -1,0 +1,28 @@
+package com.Deepak.testNG;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class fileUpload {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://altoconvertpdftojpg.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.cssSelector("[class*='btn--choose']")).click();
+		Thread.sleep(3000);
+		Runtime.getRuntime().exec("C:\\Users\\Deepak\\Desktop\\fileUpload.exe");
+		WebDriverWait w=new WebDriverWait(driver,10);
+		WebElement uploadButton = w.until(ExpectedConditions.visibilityOfElementLocated((By) driver.findElement(By.xpath("//button[@type='button']"))));
+		uploadButton.click();
+		
+	}
+
+}

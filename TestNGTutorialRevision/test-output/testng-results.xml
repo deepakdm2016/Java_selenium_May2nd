@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="153" started-at="2019-06-21T00:36:26Z" finished-at="2019-06-21T00:36:26Z">
+    <groups>
+      <group name="smoke">
+        <method signature="day1.testngDemo()[pri:2, instance:com.Deepak.testNG.day1@4de8b406]" name="testngDemo" class="com.Deepak.testNG.day1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="58" started-at="2019-06-21T00:36:26Z" finished-at="2019-06-21T00:36:26Z">
+      <class name="com.Deepak.testNG.day1">
+        <test-method status="PASS" signature="testngDemo()[pri:2, instance:com.Deepak.testNG.day1@4de8b406]" name="testngDemo" duration-ms="16" started-at="2019-06-21T06:06:26Z" finished-at="2019-06-21T06:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testngDemo -->
+      </class> <!-- com.Deepak.testNG.day1 -->
+    </test> <!-- Test -->
+    <test name="TestDay3" duration-ms="41" started-at="2019-06-21T00:36:26Z" finished-at="2019-06-21T00:36:26Z">
+      <class name="com.Deepak.testNG.day3">
+        <test-method status="PASS" signature="testngDemoSecondDay3(java.lang.String, java.lang.String)[pri:1, instance:com.Deepak.testNG.day3@4520ebad]" name="testngDemoSecondDay3" duration-ms="3" started-at="2019-06-21T06:06:26Z" data-provider="testData" finished-at="2019-06-21T06:06:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[obj 00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[obj 01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testngDemoSecondDay3 -->
+        <test-method status="PASS" signature="testngDemoSecondDay3(java.lang.String, java.lang.String)[pri:1, instance:com.Deepak.testNG.day3@4520ebad]" name="testngDemoSecondDay3" duration-ms="5" started-at="2019-06-21T06:06:26Z" data-provider="testData" finished-at="2019-06-21T06:06:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[obj 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[obj 11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testngDemoSecondDay3 -->
+        <test-method status="PASS" signature="testngDemoDay3(java.lang.String)[pri:0, instance:com.Deepak.testNG.day3@4520ebad]" name="testngDemoDay3" duration-ms="6" started-at="2019-06-21T06:06:26Z" depends-on-methods="com.Deepak.testNG.day3.testngDemoSecondDay3" finished-at="2019-06-21T06:06:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[326112]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testngDemoDay3 -->
+      </class> <!-- com.Deepak.testNG.day3 -->
+    </test> <!-- TestDay3 -->
+  </suite> <!-- Suite -->
+</testng-results>

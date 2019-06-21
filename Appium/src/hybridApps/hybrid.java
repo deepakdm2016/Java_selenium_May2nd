@@ -4,6 +4,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -18,7 +19,8 @@ public class hybrid {
 		File fs=new File(f,"ApiDemos-debug.apk");
 		DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus_S_API_25");
-		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
+		cap.setCapability("appPackage", "io.selendroid.testapp");
+		cap.setCapability("appActivity", "io.selendroid.testapp.HomeScreenActivity");
 		
 		AndroidDriver<AndroidElement> driver=new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		

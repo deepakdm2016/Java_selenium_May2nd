@@ -1,0 +1,10 @@
+package com.Deepak.testNG;
+
+public class windowPopup {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\Java_selenium_May2nd\\chromedriver.exe")
+	}
+
+}
