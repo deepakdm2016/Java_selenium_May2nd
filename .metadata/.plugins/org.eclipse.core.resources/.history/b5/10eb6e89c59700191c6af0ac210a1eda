@@ -1,0 +1,42 @@
+package com.deepak.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class stringTest {
+
+	@Test
+	public void lengthBasic() {
+		
+		int length="ABCDE".length();
+		assertEquals(5, length);
+		
+		
+	}
+	
+	
+	@Test
+	public void testUppercase() {
+		
+		String actual="abcd".toUpperCase();
+		assertEquals("ABCD", actual);
+		assertNotNull(actual);
+		//assertNull(actual);
+		
+		
+	}
+
+	@Test
+	public void contains_Basic() {
+		
+		String actual="abcdefgh";
+		boolean contains = actual.contains("pqrs");
+		assertEquals(false, contains);
+		//assertNull(actual);
+		
+		
+	}
+
+
+}

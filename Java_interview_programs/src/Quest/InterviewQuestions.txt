@@ -1,0 +1,12 @@
+Introduction
+SQL - with in clause - employee details who are the managers
+testNG - multiple questions
+Java programming - regex replaceall,  
+	Selenium question on table - get all the values of column and check if they are 
+    in ascending order
+Interface, Abstract, inheritence
+Page object model
+apple 200 projects
+h1b
+family 
+github - db integration

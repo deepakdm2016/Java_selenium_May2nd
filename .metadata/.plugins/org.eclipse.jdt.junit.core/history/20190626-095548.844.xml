@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="stringTest (1)" project="junit" tests="5" started="5" failures="0" errors="1" ignored="0">
+  <testsuite name="com.deepak.junit.stringTest" time="0.012">
+    <testcase name="lengthException" classname="com.deepak.junit.stringTest" time="0.004">
+      <error>java.lang.Exception: Unexpected exception, expected&lt;java.lang.NullPointerException&gt; but was&lt;java.lang.AssertionError&gt;&#13;
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:110)&#13;
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)&#13;
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)&#13;
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)&#13;
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)&#13;
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)&#13;
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)&#13;
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:44)&#13;
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)&#13;
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)&#13;
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;4&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:74)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:448)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:102)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:323)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:319)&#13;
+	at com.deepak.junit.stringTest.lengthException(stringTest.java:29)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)&#13;
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)&#13;
+	... 16 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="split_Basic" classname="com.deepak.junit.stringTest" time="0.003"/>
+    <testcase name="testUppercase" classname="com.deepak.junit.stringTest" time="0.0"/>
+    <testcase name="lengthBasic" classname="com.deepak.junit.stringTest" time="0.0"/>
+    <testcase name="contains_Basic" classname="com.deepak.junit.stringTest" time="0.002"/>
+  </testsuite>
+</testrun>

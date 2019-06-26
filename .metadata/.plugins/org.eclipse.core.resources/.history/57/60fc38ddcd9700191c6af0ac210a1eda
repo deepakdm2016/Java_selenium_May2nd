@@ -1,0 +1,118 @@
+package com.deepak.junit;
+
+
+import static org.junit.Assert.*;
+
+import java.time.Duration;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runners.Parameterized.Parameters;
+
+public class stringTest {
+
+	@Test
+	public void lengthBasic() {
+
+		int length = "ABCDE".length();
+		assertEquals(5, length);
+
+	}
+
+
+	@Test(expected=NullPointerException.class)
+	public void lengthException() {
+
+		String a=null;
+		//String a="abcd";
+		int length = a.length();
+		assertEquals(5, length);
+
+	}
+
+	
+	
+
+
+	
+	@Test
+	public void testUppercase() {
+
+		String actual = "abcd".toUpperCase();
+		assertEquals("ABCD", actual);
+		assertNotNull(actual);
+		// assertNull(actual);
+
+	}
+	
+	
+	
+
+	@Test
+	public void contains_Basic() {
+
+		String actual = "abcdefgh";
+		boolean contains = actual.contains("pqrs");
+		assertEquals(false, contains);
+		assertFalse(contains);
+
+		// assertNull(actual);
+
+	}
+	
+	@Test
+	public void split_Basic() {
+
+		String actual = new String("abc def ghi jkl opq");
+		String[] result = actual.split(" ");
+		String expected[]=new String[]{"abc", "def", "ghi", "jkl", "opq"};
+		
+		assertArrayEquals(expected, result);
+		// assertNull(actual);
+
+	}
+	
+	/*
+	@Test
+	public void performanceTest()
+	{
+		assertTimeout(Duration.ofSeconds(5),()->
+		{
+			
+			for(int i=1;i<1000000;i++)
+			{
+				int j=i;
+				System.out.println("hello");
+			}
+		});
+	}
+*/
+	@Before
+	public void initializeBefore()
+	{
+		System.out.println("Before each Initialization");
+	}
+	
+	@After
+	public void initializeAfter()
+	{
+		System.out.println("After each Initialization");
+	}
+	
+	@BeforeClass
+	static public void initializeBeforeAll()
+	{
+		System.out.println("Before each Initialization class");
+	}
+	
+	@AfterClass
+	static public void initializeAfterAll()
+	{
+		System.out.println("After each Initialization class");
+	}	
+	
+
+}

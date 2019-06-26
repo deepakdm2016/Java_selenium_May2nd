@@ -1,0 +1,56 @@
+package com.deepak.junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Test;
+
+public class stringTest {
+
+	@Test
+	public void lengthBasic() {
+
+		int length = "ABCDE".length();
+		assertEquals(5, length);
+
+	}
+
+	@Test
+	public void testUppercase() {
+
+		String actual = "abcd".toUpperCase();
+		assertEquals("ABCD", actual);
+		assertNotNull(actual);
+		// assertNull(actual);
+
+	}
+
+	@Test
+	public void contains_Basic() {
+
+		String actual = "abcdefgh";
+		boolean contains = actual.contains("pqrs");
+		assertEquals(false, contains);
+		assertFalse(contains);
+
+		// assertNull(actual);
+
+	}
+	
+	@Test
+	public void split_Basic() {
+
+		String actual = new String("abc def ghi jkl opq");
+		String[] result = actual.split(" ");
+		String expected[]=new String[]{"abc", "def", "ghi", "jkl", "opq"};
+		
+		assertArrayEquals(expected, result);
+		// assertNull(actual);
+
+	}
+
+	@Before
+	public void initializeBefore()
+	{
+		System.out.println("Before each Initialization");
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="stringTest (1)" project="junit" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.deepak.junit.stringTest" time="0.0">
+    <testcase name="initializationError0" classname="com.deepak.junit.stringTest" time="0.0">
+      <error>java.lang.Exception: Method initializeBeforeAll should be public&#13;
+	at org.junit.internal.runners.MethodValidator.validateTestMethods(MethodValidator.java:74)&#13;
+	at org.junit.internal.runners.MethodValidator.validateStaticMethods(MethodValidator.java:36)&#13;
+	at org.junit.internal.runners.MethodValidator.validateMethodsForDefaultRunner(MethodValidator.java:42)&#13;
+	at org.junit.internal.runners.JUnit4ClassRunner.validate(JUnit4ClassRunner.java:36)&#13;
+	at org.junit.internal.runners.JUnit4ClassRunner.&lt;init&gt;(JUnit4ClassRunner.java:27)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.internal.requests.ClassRequest.buildRunner(ClassRequest.java:33)&#13;
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:28)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:84)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:70)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:43)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:444)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
