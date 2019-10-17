@@ -1,0 +1,57 @@
+1. Find all the missing numbers between first and last elements in the array
+	eg. 1, 4, 5, 15 should give output as 
+	2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14
+	
+2. Find second largest element of unsorted array.
+
+3. Find missing number in a array
+	1, 2, 3, 4, 5, 7, 8, 9
+	
+4. Reverse words in the sentence
+"All the best" should give output as "llA eht tseb"
+
+5. Reversed odd indexed words in a sentence
+"I will build my own destiny"
+
+Output: "I will dliub my nwo destiny"
+
+6. Sort the array in descending order and get the minimum and maximum element.
+
+7. Find the most repeated character in the word.
+
+8. Remove duplicates without using collections in the word. "Capgemini"
+
+9. Find number of times word "Capgemini" repeated in the excel sheet.
+
+10. Read excel and put to 2-d array.
+
+11. Read excel and put to Map and read the map values.
+
+12. Find all the links of a webpage and number or occurances.
+
+13. 100 windows are opened in my application, traverse through each and every window and if it's facebook page, print "I am at facebook Page" and return to original page at the end.
+
+14.Web table program
+
+15. Reverse a string and check if it is a palindrome?
+
+16. Reverse a string using recursion?
+
+17. We have a series of numbers 1 to 100, but one of number is missing. How do       you find the missing number?
+
+18. A sentence is there - get the count of each words and repeated words
+
+19. Reverse a number ?
+
+20. I have a string "1234ty^&987" -> Get me count of all numeric characters in the given string literal
+
+21. Write a program to involve all OOPS concepts?
+
+22. I have a string "1234ty^&987" -> Get me s of all numeric characters in the given string literal
+
+23. Remove duplicates from a list 1, 2, 1, 3, 4, 3, 5
+
+24. Demonstarate OOPS concepts by writing a use case
+
+
+
